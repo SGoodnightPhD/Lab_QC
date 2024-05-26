@@ -1,0 +1,49 @@
+---
+title: "qPCR Quality Control Summary"
+author: "Seth Goodnight"
+date: "2024-05-25"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(janitor)
+library(tidyverse)
+library(ggplot2)
+RawResults.dat <- read.csv("Jekielek_qPCR_P02.csv", header = FALSE)
+
+```
+
+## Instrument
+
+```{r Import data, echo=FALSE}
+InstrumentInfo.dat <- head(RawResults.dat, n = 45)
+InstrumentInfo.dat <- InstrumentInfo.dat[,colSums(is.na(InstrumentInfo.dat))<nrow(InstrumentInfo.dat)]
+FAM <- InstrumentInfo.dat[9,2]
+ROX <- InstrumentInfo.dat[17,2]
+```
+
+Calibration:
+
+FAM: `r FAM`
+
+ROX: `r ROX`
+
+# Standard Curve:
+```{r pressure, echo=FALSE, warning=FALSE}
+PCR_Results.dat <- tail(RawResults.dat, n = -46)
+PCR_Results.dat <- row_to_names(PCR_Results.dat, row_number = 1)
+PCR_Results.dat$CT <- as.numeric(PCR_Results.dat$CT)
+PCR_Results.dat$Quantity <- as.numeric(PCR_Results.dat$Quantity)
+
+StdCurve.dat <- subset(PCR_Results.dat, Task == "STANDARD")
+StdCurve.plot <- ggplot(StdCurve.dat, aes(x = Quantity, y = CT)) +
+  geom_point() +
+  scale_x_log10() +
+  geom_smooth(method = "lm", formula = 'y~x') +
+  theme_bw()
+StdCurve.plot
+RSq <- PCR_Results.dat$`R(superscript 2)`[2]
+```
+R2=`r RSq`
+
