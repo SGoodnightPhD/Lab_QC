@@ -1,7 +1,4 @@
 ---
-title: "qPCR Quality Control Summary"
-author: "Seth Goodnight"
-date: "2024-05-25"
 output: pdf_document
 ---
 
@@ -11,39 +8,63 @@ library(janitor)
 library(tidyverse)
 library(ggplot2)
 RawResults.dat <- read.csv("Jekielek_qPCR_P02.csv", header = FALSE)
+InstrumentInfo.dat <- head(RawResults.dat, n = 45)
+PCR_Results.dat <- tail(RawResults.dat, n = -46)
 
+Tech <- InstrumentInfo.dat[45,2]
+Date <- as.Date(InstrumentInfo.dat[36,2])
+Name <- InstrumentInfo.dat[35,2
+]
 ```
+### qPCR Quality Control Summary
 
-## Instrument
+Technician: `r Tech`
+
+Date: `r Date`
+
+Sample Plate: `r Name`
+
+# Instrument
 
 ```{r Import data, echo=FALSE}
-InstrumentInfo.dat <- head(RawResults.dat, n = 45)
 InstrumentInfo.dat <- InstrumentInfo.dat[,colSums(is.na(InstrumentInfo.dat))<nrow(InstrumentInfo.dat)]
-FAM <- InstrumentInfo.dat[9,2]
-ROX <- InstrumentInfo.dat[17,2]
+FAM <- as.Date(InstrumentInfo.dat[9,2], format = "%m-%d-%Y")
+ROX <- as.Date(InstrumentInfo.dat[17,2], format = "%m-%d-%Y")
+BGCal <- as.Date(InstrumentInfo.dat[3,2], format = "%m-%d-%Y")
+Type <- InstrumentInfo.dat[40,2]
+SN <- InstrumentInfo.dat[39,2]
 ```
 
-Calibration:
+Type: `r Type` 
 
-FAM: `r FAM`
+Serial Number `r SN`
 
-ROX: `r ROX`
+Last Background check: `r BGCal`
+
+FAM dye calibration: `r FAM`
+
+ROX dye calibration: `r ROX`
 
 # Standard Curve:
-```{r pressure, echo=FALSE, warning=FALSE}
-PCR_Results.dat <- tail(RawResults.dat, n = -46)
+```{r standard curve, echo=FALSE, warning=FALSE}
 PCR_Results.dat <- row_to_names(PCR_Results.dat, row_number = 1)
 PCR_Results.dat$CT <- as.numeric(PCR_Results.dat$CT)
 PCR_Results.dat$Quantity <- as.numeric(PCR_Results.dat$Quantity)
+PCR_Results.dat$`R(superscript 2)` <- as.numeric(PCR_Results.dat$`R(superscript 2)`)
 
 StdCurve.dat <- subset(PCR_Results.dat, Task == "STANDARD")
 StdCurve.plot <- ggplot(StdCurve.dat, aes(x = Quantity, y = CT)) +
   geom_point() +
   scale_x_log10() +
   geom_smooth(method = "lm", formula = 'y~x') +
+  ylab("Ct value") +
+  xlab("Dilution (log)") +
   theme_bw()
 StdCurve.plot
-RSq <- PCR_Results.dat$`R(superscript 2)`[2]
-```
-R2=`r RSq`
 
+RSq <- PCR_Results.dat$`R(superscript 2)`[2]
+MeanSD <- mean(na.omit(PCR_Results.dat$`Ct SD`))
+```
+R^2^ = `r RSq`
+
+Average sample SD = `r MeanSD`
