@@ -1,0 +1,18 @@
+---
+title: "Extraction Batch"
+author: "Seth Goodnight"
+date: "2024-07-30"
+output: pdf_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(janitor)
+library(tidyverse)
+library(ggplot2)
+BatchInfo.dat <- read.csv("Extraction Batch Tracking Form.csv", header = FALSE)
+```
+UNH Collaborative Core Wet Lab
+
+Nucleic Acid Extraction Report
