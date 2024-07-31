@@ -1,0 +1,143 @@
+Block Type,96-Well Block (0.2mL),,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Background is expired ,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Background performed on,05-14-2024,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye ABY is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye ABY performed on,11-08-2023,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye CY5 is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye CY5 performed on,11-08-2023,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye FAM is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye FAM performed on,11-08-2023,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye JUN is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye JUN performed on,11-08-2023,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye MUSTANG PURPLE is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye MUSTANG PURPLE performed on,11-08-2023,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye NED is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye NED performed on,11-08-2023,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye ROX is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye ROX performed on,11-08-2023,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye SYBR is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye SYBR performed on,11-08-2023,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye TAMRA is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye TAMRA performed on,11-08-2023,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye VIC is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye VIC performed on,11-08-2023,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration RNaseP is expired ,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration RNaseP performed on,11-08-2023,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration ROI is expired ,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration ROI performed on,11-08-2023,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Uniformity is expired ,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Uniformity performed on,11-08-2023,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Chemistry,TAQMAN,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Date Created,2024-05-15 12:55:11 PM EDT,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Experiment Barcode,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Experiment Comment,NA,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Experiment File Name,D:\Applied Biosystems\QuantStudio\Ticks\2024-05-15 Tick Pathogen Test 6.eds,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Experiment Name,2024-05-15 Tick Pathogen Test 6,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Experiment Run End Time,2024-05-15 17:38:36 PM EDT,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Experiment Type,Standard Curve,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Instrument Name,278870712,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Instrument Serial Number,278870712,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Instrument Type,QuantStudio(TM) 7 Flex System,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Passive Reference,ROX,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Quantification Cycle Method,Ct,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Signal Smoothing On,true,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Stage/ Cycle where Analysis is performed,"Stage 4, Step 2",,,,,,,,,,,,,,,,,,,,,,,,,,,
+User Name,Seth Goodnight,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Well,Well Position,Omit,Sample Name,Target Name,Task,Reporter,Quencher,CT,Ct Mean,Ct SD,Quantity,Quantity Mean,Quantity SD,Automatic Ct Threshold,Ct Threshold,Automatic Baseline,Baseline Start,Baseline End,Comments,Y-Intercept,R(superscript 2),Slope,Efficiency,Amp Score,Cq Conf,NOAMP,EXPFAIL,THOLDFAIL
+1,A1,FALSE,USGS_1_A03,Anaplasma phagocytophilum,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.215,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+2,A2,FALSE,USGS_1_G06,Anaplasma phagocytophilum,UNKNOWN,FAM,NFQ-MGB,30.387,30.387,,,,,TRUE,0.215,TRUE,1,40,,,,,,1.316,0.980,N,N,N
+3,A3,FALSE,USGS_1_C07,Anaplasma phagocytophilum,UNKNOWN,FAM,NFQ-MGB,25.877,25.877,,,,,TRUE,0.215,TRUE,1,40,,,,,,1.307,0.981,N,N,N
+4,A4,FALSE,USGS_1_E06,Anaplasma phagocytophilum,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.215,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+5,A5,FALSE,USGS_1_F06,Anaplasma phagocytophilum,UNKNOWN,FAM,NFQ-MGB,31.746,31.746,,,,,TRUE,0.215,TRUE,1,40,,,,,,1.304,0.973,N,N,N
+6,A6,FALSE,USGS_1_F09,Anaplasma phagocytophilum,UNKNOWN,FAM,NFQ-MGB,26.838,26.838,,,,,TRUE,0.215,TRUE,1,40,,,,,,1.310,0.987,N,N,N
+7,A7,FALSE,USGS_1_F11,Anaplasma phagocytophilum,UNKNOWN,FAM,NFQ-MGB,31.155,31.155,,,,,TRUE,0.215,TRUE,1,40,,,,,,1.310,0.984,N,N,N
+8,A8,FALSE,USGS_1_F12,Anaplasma phagocytophilum,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.215,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+9,A9,FALSE,USGS_1_H05,Anaplasma phagocytophilum,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.215,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+10,A10,FALSE,USGS_1_H08,Anaplasma phagocytophilum,UNKNOWN,FAM,NFQ-MGB,34.236,34.236,,,,,TRUE,0.215,TRUE,1,40,,,,,,1.361,0.973,N,N,N
+11,A11,FALSE,Pos,Anaplasma phagocytophilum,UNKNOWN,FAM,NFQ-MGB,28.243,28.243,,,,,TRUE,0.215,TRUE,1,40,,,,,,1.406,0.991,N,N,N
+12,A12,FALSE,NTC,Anaplasma phagocytophilum,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.215,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+13,B1,FALSE,USGS_1_A03,Babesia microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.190,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+14,B2,FALSE,USGS_1_G06,Babesia microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.190,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+15,B3,FALSE,USGS_1_C07,Babesia microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.190,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+16,B4,FALSE,USGS_1_E06,Babesia microti,UNKNOWN,FAM,NFQ-MGB,20.038,20.038,,,,,TRUE,0.190,TRUE,1,40,,,,,,1.410,0.983,N,N,N
+17,B5,FALSE,USGS_1_F06,Babesia microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.190,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+18,B6,FALSE,USGS_1_F09,Babesia microti,UNKNOWN,FAM,NFQ-MGB,37.705,37.705,,,,,TRUE,0.190,TRUE,1,40,,,,,,1.116,0.917,N,N,N
+19,B7,FALSE,USGS_1_F11,Babesia microti,UNKNOWN,FAM,NFQ-MGB,19.072,19.072,,,,,TRUE,0.190,TRUE,1,40,,,,,,1.412,0.983,N,N,N
+20,B8,FALSE,USGS_1_F12,Babesia microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.190,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+21,B9,FALSE,USGS_1_H05,Babesia microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.190,TRUE,1,40,,,,,,0.866,0.000,N,N,N
+22,B10,FALSE,USGS_1_H08,Babesia microti,UNKNOWN,FAM,NFQ-MGB,34.119,34.119,,,,,TRUE,0.190,TRUE,1,40,,,,,,1.400,0.976,N,N,N
+23,B11,FALSE,Pos,Babesia microti,UNKNOWN,FAM,NFQ-MGB,27.777,27.777,,,,,TRUE,0.190,TRUE,1,40,,,,,,1.460,0.992,N,N,N
+24,B12,FALSE,NTC,Babesia microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.190,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+25,C1,FALSE,USGS_1_A03,Borrelia burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.118,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+26,C2,FALSE,USGS_1_G06,Borrelia burgdorferi,UNKNOWN,FAM,NFQ-MGB,35.258,35.258,,,,,TRUE,0.118,TRUE,1,40,,,,,,1.216,0.972,N,N,N
+27,C3,FALSE,USGS_1_C07,Borrelia burgdorferi,UNKNOWN,FAM,NFQ-MGB,36.980,36.980,,,,,TRUE,0.118,TRUE,1,40,,,,,,1.113,0.952,N,N,N
+28,C4,FALSE,USGS_1_E06,Borrelia burgdorferi,UNKNOWN,FAM,NFQ-MGB,27.838,27.838,,,,,TRUE,0.118,TRUE,1,40,,,,,,1.229,0.984,N,N,N
+29,C5,FALSE,USGS_1_F06,Borrelia burgdorferi,UNKNOWN,FAM,NFQ-MGB,30.292,30.292,,,,,TRUE,0.118,TRUE,1,40,,,,,,1.228,0.973,N,N,N
+30,C6,FALSE,USGS_1_F09,Borrelia burgdorferi,UNKNOWN,FAM,NFQ-MGB,32.266,32.266,,,,,TRUE,0.118,TRUE,1,40,,,,,,1.241,0.966,N,N,N
+31,C7,FALSE,USGS_1_F11,Borrelia burgdorferi,UNKNOWN,FAM,NFQ-MGB,34.774,34.774,,,,,TRUE,0.118,TRUE,1,40,,,,,,1.195,0.962,N,N,N
+32,C8,FALSE,USGS_1_F12,Borrelia burgdorferi,UNKNOWN,FAM,NFQ-MGB,30.630,30.630,,,,,TRUE,0.118,TRUE,1,40,,,,,,1.228,0.980,N,N,N
+33,C9,FALSE,USGS_1_H05,Borrelia burgdorferi,UNKNOWN,FAM,NFQ-MGB,39.670,39.670,,,,,TRUE,0.118,TRUE,1,40,,,,,,0.875,0.000,N,N,N
+34,C10,FALSE,USGS_1_H08,Borrelia burgdorferi,UNKNOWN,FAM,NFQ-MGB,31.227,31.227,,,,,TRUE,0.118,TRUE,1,40,,,,,,1.241,0.982,N,N,N
+35,C11,FALSE,Pos,Borrelia burgdorferi,UNKNOWN,FAM,NFQ-MGB,29.737,29.737,,,,,TRUE,0.118,TRUE,1,40,,,,,,1.271,0.985,N,N,N
+36,C12,FALSE,NTC,Borrelia burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.118,TRUE,1,40,,,,,,0.691,0.000,N,N,N
+37,D1,FALSE,USGS_1_A03,Borrelia mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.288,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+38,D2,FALSE,USGS_1_G06,Borrelia mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.288,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+39,D3,FALSE,USGS_1_C07,Borrelia mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.288,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+40,D4,FALSE,USGS_1_E06,Borrelia mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.288,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+41,D5,FALSE,USGS_1_F06,Borrelia mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.288,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+42,D6,FALSE,USGS_1_F09,Borrelia mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.288,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+43,D7,FALSE,USGS_1_F11,Borrelia mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.288,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+44,D8,FALSE,USGS_1_F12,Borrelia mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.288,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+45,D9,FALSE,USGS_1_H05,Borrelia mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.288,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+46,D10,FALSE,USGS_1_H08,Borrelia mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.288,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+47,D11,FALSE,Pos,Borrelia mayonii,UNKNOWN,FAM,NFQ-MGB,28.873,28.873,,,,,TRUE,0.288,TRUE,1,40,,,,,,1.373,0.990,N,N,N
+48,D12,FALSE,NTC,Borrelia mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.288,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+49,E1,FALSE,USGS_1_A03,Borrelia miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.040,TRUE,1,40,,,,,,0.000,0.000,Y,Y,Y
+50,E2,FALSE,USGS_1_G06,Borrelia miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.040,TRUE,1,40,,,,,,0.000,0.000,Y,Y,Y
+51,E3,FALSE,USGS_1_C07,Borrelia miyamotoi,UNKNOWN,FAM,NFQ-MGB,35.934,35.934,,,,,TRUE,0.040,TRUE,1,40,,,,,,1.108,0.967,N,N,Y
+52,E4,FALSE,USGS_1_E06,Borrelia miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.040,TRUE,1,40,,,,,,0.000,0.000,Y,Y,Y
+53,E5,FALSE,USGS_1_F06,Borrelia miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.040,TRUE,1,40,,,,,,0.000,0.000,Y,Y,Y
+54,E6,FALSE,USGS_1_F09,Borrelia miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.040,TRUE,1,40,,,,,,0.000,0.000,Y,Y,Y
+55,E7,FALSE,USGS_1_F11,Borrelia miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.040,TRUE,1,40,,,,,,0.000,0.000,Y,Y,Y
+56,E8,FALSE,USGS_1_F12,Borrelia miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.040,TRUE,1,40,,,,,,0.000,0.000,Y,Y,Y
+57,E9,FALSE,Pos,Borrelia miyamotoi,UNKNOWN,FAM,NFQ-MGB,37.401,37.401,,,,,TRUE,0.040,TRUE,1,40,,,,,,0.914,0.949,N,N,Y
+58,E10,FALSE,USGS_1_H05,Borrelia miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.040,TRUE,1,40,,,,,,0.000,0.000,Y,Y,Y
+59,E11,FALSE,USGS_1_H08,Borrelia miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.040,TRUE,1,40,,,,,,0.000,0.000,Y,Y,Y
+60,E12,FALSE,NTC,Borrelia miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.040,TRUE,1,40,,,,,,0.000,0.000,Y,Y,Y
+61,F1,FALSE,USGS_1_A03,Ehrlichia muris eauclarensis,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.417,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+62,F2,FALSE,USGS_1_G06,Ehrlichia muris eauclarensis,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.417,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+63,F3,FALSE,USGS_1_C07,Ehrlichia muris eauclarensis,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.417,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+64,F4,FALSE,USGS_1_E06,Ehrlichia muris eauclarensis,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.417,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+65,F5,FALSE,USGS_1_F06,Ehrlichia muris eauclarensis,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.417,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+66,F6,FALSE,USGS_1_F09,Ehrlichia muris eauclarensis,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.417,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+67,F7,FALSE,USGS_1_F11,Ehrlichia muris eauclarensis,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.417,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+68,F8,FALSE,USGS_1_F12,Ehrlichia muris eauclarensis,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.417,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+69,F9,FALSE,USGS_1_H05,Ehrlichia muris eauclarensis,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.417,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+70,F10,FALSE,USGS_1_H08,Ehrlichia muris eauclarensis,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.417,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+71,F11,FALSE,Pos,Ehrlichia muris eauclarensis,UNKNOWN,FAM,NFQ-MGB,27.953,27.953,,,,,TRUE,0.417,TRUE,1,40,,,,,,1.474,0.982,N,N,N
+72,F12,FALSE,NTC,Ehrlichia muris eauclarensis,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.417,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+73,G1,FALSE,USGS_1_A03,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.153,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+74,G2,FALSE,USGS_1_G06,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.153,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+75,G3,FALSE,USGS_1_C07,Powassan virus,UNKNOWN,FAM,NFQ-MGB,17.674,17.674,,,,,TRUE,0.153,TRUE,1,40,,,,,,1.229,0.859,N,N,N
+76,G4,FALSE,USGS_1_E06,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.153,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+77,G5,FALSE,USGS_1_F06,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.153,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+78,G6,FALSE,USGS_1_F09,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.153,TRUE,1,40,,,,,,0.000,0.000,N,Y,N
+79,G7,FALSE,USGS_1_F11,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.153,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+80,G8,FALSE,USGS_1_F12,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.153,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+81,G9,FALSE,USGS_1_H05,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.153,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+82,G10,FALSE,USGS_1_H08,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.153,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+83,G11,FALSE,Pos,Powassan virus,UNKNOWN,FAM,NFQ-MGB,26.304,26.304,,,,,TRUE,0.153,TRUE,1,40,,,,,,1.409,0.987,N,N,N
+84,G12,FALSE,NTC,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.153,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N
+85,H1,FALSE,USGS_1_A03,Bacillus atrophaeus,UNKNOWN,FAM,NFQ-MGB,24.744,24.744,,,,,TRUE,0.113,TRUE,1,40,,,,,,1.177,0.973,N,N,N
+86,H2,FALSE,USGS_1_G06,Bacillus atrophaeus,UNKNOWN,FAM,NFQ-MGB,25.975,25.975,,,,,TRUE,0.113,TRUE,1,40,,,,,,1.176,0.969,N,N,N
+87,H3,FALSE,USGS_1_C07,Bacillus atrophaeus,UNKNOWN,FAM,NFQ-MGB,25.677,25.677,,,,,TRUE,0.113,TRUE,1,40,,,,,,1.173,0.956,N,N,N
+88,H4,FALSE,USGS_1_E06,Bacillus atrophaeus,UNKNOWN,FAM,NFQ-MGB,25.344,25.344,,,,,TRUE,0.113,TRUE,1,40,,,,,,1.182,0.971,N,N,N
+89,H5,FALSE,USGS_1_F06,Bacillus atrophaeus,UNKNOWN,FAM,NFQ-MGB,26.411,26.411,,,,,TRUE,0.113,TRUE,1,40,,,,,,1.179,0.971,N,N,N
+90,H6,FALSE,USGS_1_F09,Bacillus atrophaeus,UNKNOWN,FAM,NFQ-MGB,25.715,25.715,,,,,TRUE,0.113,TRUE,1,40,,,,,,1.181,0.968,N,N,N
+91,H7,FALSE,USGS_1_F11,Bacillus atrophaeus,UNKNOWN,FAM,NFQ-MGB,26.015,26.015,,,,,TRUE,0.113,TRUE,1,40,,,,,,1.176,0.971,N,N,N
+92,H8,FALSE,USGS_1_F12,Bacillus atrophaeus,UNKNOWN,FAM,NFQ-MGB,25.480,25.480,,,,,TRUE,0.113,TRUE,1,40,,,,,,1.176,0.979,N,N,N
+93,H9,FALSE,USGS_1_H05,Bacillus atrophaeus,UNKNOWN,FAM,NFQ-MGB,25.684,25.684,,,,,TRUE,0.113,TRUE,1,40,,,,,,1.186,0.972,N,N,N
+94,H10,FALSE,USGS_1_H08,Bacillus atrophaeus,UNKNOWN,FAM,NFQ-MGB,27.495,27.495,,,,,TRUE,0.113,TRUE,1,40,,,,,,1.187,0.977,N,N,N
+95,H11,FALSE,Pos,Bacillus atrophaeus,UNKNOWN,FAM,NFQ-MGB,28.049,28.049,,,,,TRUE,0.113,TRUE,1,40,,,,,,1.168,0.982,N,N,N
+96,H12,FALSE,NTC,Bacillus atrophaeus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.113,TRUE,1,40,,,,,,0.000,0.000,Y,Y,N

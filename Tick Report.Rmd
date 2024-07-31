@@ -1,0 +1,58 @@
+---
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(janitor)
+library(tidyverse)
+library(ggplot2)
+library(knitr)
+RawResults.dat <- read.csv("2024-05-15 Tick Pathogen PCR Test 6(Results).csv", header = FALSE)
+InstrumentInfo.dat <- head(RawResults.dat, n = 45)
+PCR_Results.dat <- tail(RawResults.dat, n = -46)
+
+Tech <- InstrumentInfo.dat[45,2]
+Date <- as.Date(InstrumentInfo.dat[36,2])
+Name <- InstrumentInfo.dat[35,2]
+
+```
+---
+title: "Tick Test Results"
+author: `r Tech`
+date: `r Date`
+---
+
+# Instrument
+
+```{r Import data, echo=FALSE}
+InstrumentInfo.dat <- InstrumentInfo.dat[,colSums(is.na(InstrumentInfo.dat))<nrow(InstrumentInfo.dat)]
+Type <- InstrumentInfo.dat[40,2]
+SN <- InstrumentInfo.dat[39,2]
+```
+
+Type: `r Type` 
+
+Serial Number `r SN`
+
+# Results:
+```{r standard curve, echo=FALSE, warning=FALSE}
+
+PCR_Results.dat <- row_to_names(PCR_Results.dat, row_number = 1)
+PCR_Results.dat <- clean_names(PCR_Results.dat)
+PCR_Results.dat$ct <- as.numeric(PCR_Results.dat$ct)
+PCR_Results.dat$quantity <- as.numeric(PCR_Results.dat$quantity)
+PCR_Results.dat$`r_superscript_2` <- as.numeric(PCR_Results.dat$r_superscript_2)
+PCR_Results.dat$ct <- ifelse(is.na(PCR_Results.dat$ct), 41, PCR_Results.dat$ct)
+PCR_Results.dat=within(PCR_Results.dat,{
+  result=NA
+  result[ ct<"35"] = "POSITIVE"
+  result[ ct>="35"] = "negative"
+})
+
+SampleName.dat <- subset(PCR_Results.dat, sample_name == "USGS_1_C07")
+ResultTable.dat <- select(SampleName.dat, c('target_name', 'result'))
+kable(ResultTable.dat[1:2], row.names = FALSE)
+
+```
+
