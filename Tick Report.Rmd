@@ -3,41 +3,34 @@ output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
+
 knitr::opts_chunk$set(echo = TRUE)
 library(janitor)
 library(tidyverse)
 library(ggplot2)
 library(knitr)
 RawResults.dat <- read.csv("2024-05-15 Tick Pathogen PCR Test 6(Results).csv", header = FALSE)
-InstrumentInfo.dat <- head(RawResults.dat, n = 45)
 PCR_Results.dat <- tail(RawResults.dat, n = -46)
+InstrumentInfo.dat <- head(RawResults.dat, n = 45)
 
 Tech <- InstrumentInfo.dat[45,2]
 Date <- as.Date(InstrumentInfo.dat[36,2])
-Name <- InstrumentInfo.dat[35,2]
+SampleName <- "USGS_1_C07" #This needs to be the sample name that is used in accessioning
 
 ```
+
 ---
 title: "Tick Test Results"
 author: `r Tech`
 date: `r Date`
+Submission: `r SampleName`
 ---
 
-# Instrument
-
-```{r Import data, echo=FALSE}
-InstrumentInfo.dat <- InstrumentInfo.dat[,colSums(is.na(InstrumentInfo.dat))<nrow(InstrumentInfo.dat)]
-Type <- InstrumentInfo.dat[40,2]
-SN <- InstrumentInfo.dat[39,2]
-```
-
-Type: `r Type` 
-
-Serial Number `r SN`
-
 # Results:
-```{r standard curve, echo=FALSE, warning=FALSE}
 
+```{r Result Section, echo=FALSE, warning=FALSE}
+
+PCR_Results.dat <- tail(RawResults.dat, n = -46)
 PCR_Results.dat <- row_to_names(PCR_Results.dat, row_number = 1)
 PCR_Results.dat <- clean_names(PCR_Results.dat)
 PCR_Results.dat$ct <- as.numeric(PCR_Results.dat$ct)
@@ -52,7 +45,34 @@ PCR_Results.dat=within(PCR_Results.dat,{
 
 SampleName.dat <- subset(PCR_Results.dat, sample_name == "USGS_1_C07")
 ResultTable.dat <- select(SampleName.dat, c('target_name', 'result'))
+Names <- c("*Anaplasma phagocytophilum*", "*Babesia microti*", "*Borrelia burgdorferi*", "*Borrelia mayonii*", "*Borrelia miyamotoi*", "*Ehrlichia muris eauclarensis*", "Powassan virus", "Extraction Control")
+ResultTable.dat$target_name <- Names
 kable(ResultTable.dat[1:2], row.names = FALSE)
+```
+
+A positive result is not a diagnosis of infection. If you are concerned about illness, you should colsult your doctor. 
+# Instrument
+
+```{r Import data, echo=FALSE}
+InstrumentInfo.dat <- head(RawResults.dat, n = 45)
+
+Name <- InstrumentInfo.dat[35,2]
+Type <- InstrumentInfo.dat[40,2]
+SN <- InstrumentInfo.dat[39,2]
+ROX <- InstrumentInfo.dat[17,2]
+FAM <- InstrumentInfo.dat[9,2]
+Background <- InstrumentInfo.dat[3,2]
 
 ```
+
+Type: `r Type` 
+
+Serial Number: `r SN`
+
+Dye calibrations:  
+FAM: `r FAM`  
+ROX: `r ROX`  
+Background: `r Background`
+
+
 
