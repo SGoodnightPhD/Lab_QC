@@ -15,7 +15,12 @@ Machine Number,1,
 Model,Kingfisher Flex,
 Serial Number,1928,Based on Machine Number
 Last Service Date,1/1/1900,Based on Machine Number
-Program Name,KF_program_01,
+Program Name,ZymoBIOMICS_96_Magbead_ DNA_Whi,
 Did we measure concentration?,Yes,
 Method,Qubit,Dropdown options
 MachineType,Qubit Flex,Dropdown options based on above
+Processing Notes,Anything that should be communicated to the client,Open field
+,,
+,,
+Enter DNA concentration below,,
+Well,SampleID,Concentration
