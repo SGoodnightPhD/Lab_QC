@@ -1,6 +1,3 @@
-
-
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(janitor)
@@ -20,7 +17,7 @@ PlateId <- BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Elution Plate ID"]
 KitName <- BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Kit Name"]
 LotNo <- BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Kit Lot Number"]
 Catalog <- BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Kit Catalog Number"]
-Expiration <- BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Kit Expiration Date"]
+Expiration <- as.Date(BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Kit Expiration Date"], format = "%m/%d/%Y")
 
 ServiceDate <- as.Date(BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Last Service Date"], format = "%d/%m/%Y")
 Machine <- BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Machine Number"]
@@ -30,6 +27,7 @@ Program <- BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Program Name"]
 
 ```
 
+
 ---
 title: "Kingfisher Extraction Report"
 author: "UNH Collaborative Core Wet Lab"
@@ -37,11 +35,15 @@ date: `r Date`
 output: pdf_document
 ---
 
+`r NumberOfSamples` samples extracted in `r BatchTotal` plates.
+
 Technician(s): `r Tech`
 
-Plate `r Batch` of `r BatchTotal`
+Make a table with the plate IDs and total sample numbers.
 
 Elution Plate ID: `r PlateId`
+
+Plate `r Batch` of `r BatchTotal`
 
 Number of Samples: `r NumberOfSamples`
 
