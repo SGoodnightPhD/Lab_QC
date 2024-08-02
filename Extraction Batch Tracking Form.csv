@@ -1,19 +1,21 @@
-Extraction Batch Tracking Form,
-Date,1/1/2020
-Kit name (CCWL for in-house methods),NucleoMag VET
-Kit catalog number,12345
-Kit lot number,24680
-Elution Plate ID,13579
-Plate Number,2
-Plates in Project,4
-Number of samples,93
-Extraction Date,
-Technician,
-Technician 2,
-Technician 3,
-Machine Info,
-Did we measure concentration?,No
-Model,Kingfisher Flex
-Serial Number,1928
-Last Service Date,1/1/1900
-Program Name,KF_program_01
+Parameter,Value,Note
+Kit Name,Macherey Nagel NucleoMag VET,"CCWL for in-house methods, maybe have a pulldown linked to the inventory"
+Kit Catalog Number,12345,Barcode Option
+Kit Lot Number,24680,Barcode Option
+Kit Expiration Date,12/31/2099,
+Elution Plate ID,13579,Barcode Option
+Batch Number,2,
+Batches In Project,4,
+Number Of Samples,93,
+Extraction Date,1/1/2024,
+Technician,Seth Goodnight,
+Technician,Erin MacDonald,
+Technician,Harley Plasz,Ideally this is expandable as much as we need it to
+Machine Number,1,
+Model,Kingfisher Flex,
+Serial Number,1928,Based on Machine Number
+Last Service Date,1/1/1900,Based on Machine Number
+Program Name,KF_program_01,
+Did we measure concentration?,Yes,
+Method,Qubit,Dropdown options
+MachineType,Qubit Flex,Dropdown options based on above

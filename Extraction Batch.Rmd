@@ -1,9 +1,4 @@
----
-title: "Extraction Batch"
-author: "Seth Goodnight"
-date: "2024-07-30"
-output: pdf_document
----
+
 
 
 ```{r setup, include=FALSE}
@@ -13,13 +8,54 @@ library(tidyverse)
 library(ggplot2)
 
 BatchInfo.dat <- read.csv("Extraction Batch Tracking Form.csv", header = FALSE)
-KitName <- BatchInfo.dat$V2[3]
-Date <- as.Date(BatchInfo.dat$V2[2],format = "%d/%m/%Y")
+BatchInfo.dat <- row_to_names(BatchInfo.dat, row_number = 1)
+
+Date <- as.Date(BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Extraction Date"],format = "%d/%m/%Y")
+Tech <- BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Technician"]
+Batch <- BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Batch Number"]
+BatchTotal <- BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Batches In Project"]
+NumberOfSamples <- BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Number Of Samples"]
+PlateId <- BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Elution Plate ID"]
+
+KitName <- BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Kit Name"]
+LotNo <- BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Kit Lot Number"]
+Catalog <- BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Kit Catalog Number"]
+Expiration <- BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Kit Expiration Date"]
+
+ServiceDate <- as.Date(BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Last Service Date"], format = "%d/%m/%Y")
+Machine <- BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Machine Number"]
+SN <- BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Serial Number"]
+Model <- BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Model"]
+Program <- BatchInfo.dat$Value[BatchInfo.dat$Parameter=="Program Name"]
+
 ```
-# UNH Collaborative Core Wet Lab
 
-# Kingfisher Extraction Report
+---
+title: "Kingfisher Extraction Report"
+author: "UNH Collaborative Core Wet Lab"
+date: `r Date`
+output: pdf_document
+---
 
-Extraction Kit: `r KitName`
+Technician(s): `r Tech`
 
-Extraction Date: `r Date`
+Plate `r Batch` of `r BatchTotal`
+
+Elution Plate ID: `r PlateId`
+
+Number of Samples: `r NumberOfSamples`
+
+### Instrument:
+
+Model: `r Model`  
+Serial Number: `r SN`  
+Last Service Date: `r ServiceDate`  
+Program: `r Program`
+
+### Reagents:
+
+Extraction Kit: `r KitName`  
+Catalog Number: `r Catalog`  
+Lot Number: `r LotNo`  
+Expiration Date: `r Expiration`  
+
