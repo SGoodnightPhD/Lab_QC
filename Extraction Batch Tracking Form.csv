@@ -19,6 +19,9 @@ Program Name,ZymoBIOMICS_96_Magbead_ DNA_Whi,
 Did we measure concentration?,Yes,
 Method,Qubit,Dropdown options
 MachineType,Qubit Flex,Dropdown options based on above
+ConcentrationAssay,Qubit 1x dsDNA HS,
+Concentration Assay Catalog Number,2358,
+Concentraiton Assay Lot Number,6758,
 Processing Notes,Anything that should be communicated to the client,Open field
 ,,
 ,,
