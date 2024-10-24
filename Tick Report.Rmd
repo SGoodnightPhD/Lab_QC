@@ -1,5 +1,8 @@
 ---
+title: "Tick Pathogen Report"
 output: pdf_document
+params:
+  report_name: "default_report_name"
 ---
 
 ```{r setup, include=FALSE}
@@ -10,23 +13,15 @@ library(tidyverse)
 library(ggplot2)
 library(knitr)
 RawResults.dat <- read.csv("2024-05-15 Tick Pathogen PCR Test 6(Results).csv", header = FALSE)
-PCR_Results.dat <- tail(RawResults.dat, n = -46)
 InstrumentInfo.dat <- head(RawResults.dat, n = 45)
 
 Tech <- InstrumentInfo.dat[45,2]
 Date <- as.Date(InstrumentInfo.dat[36,2])
-SampleName <- "USGS_1_C07" #This needs to be the sample name that is used in accessioning
 
 ```
 
----
-title: "Tick Test Results"
-author: `r Tech`
-date: `r Date`
-Submission: `r SampleName`
----
 
-# Results:
+# Results for `r params$report_name`:
 
 ```{r Result Section, echo=FALSE, warning=FALSE}
 
@@ -43,17 +38,19 @@ PCR_Results.dat=within(PCR_Results.dat,{
   result[ ct>="35"] = "negative"
 })
 
-SampleName.dat <- subset(PCR_Results.dat, sample_name == "USGS_1_C07")
+SampleName.dat <- subset(PCR_Results.dat, sample_name == sample)
 ResultTable.dat <- select(SampleName.dat, c('target_name', 'result'))
 Names <- c("*Anaplasma phagocytophilum*", "*Babesia microti*", "*Borrelia burgdorferi*", "*Borrelia mayonii*", "*Borrelia miyamotoi*", "*Ehrlichia muris eauclarensis*", "Powassan virus", "Extraction Control")
 ResultTable.dat$target_name <- Names
 kable(ResultTable.dat[1:2], row.names = FALSE)
+
 ```
 
-A positive result is not a diagnosis of infection. If you are concerned about illness, you should colsult your doctor. 
+A positive result is not a diagnosis of infection. If you are concerned about illness, you should consult your doctor. 
+
 # Instrument
 
-```{r Import data, echo=FALSE}
+```{r Import-data, echo=FALSE}
 InstrumentInfo.dat <- head(RawResults.dat, n = 45)
 
 Name <- InstrumentInfo.dat[35,2]
@@ -73,6 +70,3 @@ Dye calibrations:
 FAM: `r FAM`  
 ROX: `r ROX`  
 Background: `r Background`
-
-
-
