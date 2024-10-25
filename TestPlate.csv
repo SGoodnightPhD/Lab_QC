@@ -1,0 +1,239 @@
+Block Type,384-Well Block,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Background is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Background performed on,6/28/2024,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye ABY is expired,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye ABY performed on,11/8/2023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye CY5 is expired,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye CY5 performed on,11/8/2023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye FAM is expired,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye FAM performed on,11/8/2023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye JUN is expired,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye JUN performed on,11/8/2023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye MUSTANG PURPLE is expired,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye MUSTANG PURPLE performed on,11/8/2023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye NED is expired,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye NED performed on,11/8/2023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye ROX is expired,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye ROX performed on,11/8/2023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye SYBR is expired,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye SYBR performed on,11/8/2023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye TAMRA is expired,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye TAMRA performed on,11/8/2023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye VIC is expired,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye VIC performed on,11/8/2023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration RNaseP is expired,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration RNaseP performed on,11/8/2023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration ROI is expired,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration ROI performed on,11/8/2023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Uniformity is expired,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Uniformity performed on,11/8/2023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Chemistry,TAQMAN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Date Created,2024-07-05 11:33:22 AM EDT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Experiment Barcode,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Experiment Comment,Testing 10 ul reactions in 384-well plates,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Experiment File Name,E:\Applied Biosystems\QuantStudio\Ticks\2024-07-05 Tick Pathogen Test 7.eds,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Experiment Name,2024-07-05 Tick Pathogen Test 7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Experiment Run End Time,2024-07-05 15:12:40 PM EDT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Experiment Type,Standard Curve,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Instrument Name,278870712,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Instrument Serial Number,278870712,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Instrument Type,QuantStudio(TM) 7 Flex System,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Passive Reference,ROX,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Quantification Cycle Method,Ct,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Signal Smoothing On,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Stage/ Cycle where Analysis is performed,"Stage 4, Step 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+User Name,Seth Goodnight,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Well,Well Position,Omit,Sample Name,Target Name,Task,Reporter,Quencher,CT,Ct Mean,Ct SD,Quantity,Quantity Mean,Quantity SD,Automatic Ct Threshold,Ct Threshold,Automatic Baseline,Baseline Start,Baseline End,Comments,Y-Intercept,R(superscript 2),Slope,Efficiency,Amp Score,Cq Conf,BADROX,HIGHSD,NOAMP,OUTLIERRG,EXPFAIL,THOLDFAIL
+1,A1,FALSE,EQ02442194-1,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,27.556,27.505,0.055,,,,TRUE,0.206,TRUE,1,40,,,,,,1.332,0.987,N,N,N,N,N,N
+2,A2,FALSE,EQ02442194-2,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,27.447,27.505,0.055,,,,TRUE,0.206,TRUE,1,40,,,,,,1.344,0.988,N,N,N,N,N,N
+3,A3,FALSE,EQ02442194-3,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,27.511,27.505,0.055,,,,TRUE,0.206,TRUE,1,40,,,,,,1.344,0.991,N,N,N,N,N,N
+4,A4,FALSE,Std 1to10-1,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,23.902,24.03,0.129,,,,TRUE,0.206,TRUE,1,40,,,,,,1.324,0.988,N,N,N,N,N,N
+5,A5,FALSE,Std 1to10-2,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,24.16,24.03,0.129,,,,TRUE,0.206,TRUE,1,40,,,,,,1.349,0.988,N,N,N,N,N,N
+6,A6,FALSE,Std 1to10-3,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,24.026,24.03,0.129,,,,TRUE,0.206,TRUE,1,40,,,,,,1.35,0.988,N,N,N,N,N,N
+7,A7,FALSE,Std 1to1000-1,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,30.564,30.559,0.06,,,,TRUE,0.206,TRUE,1,40,,,,,,1.348,0.985,N,N,N,N,N,N
+8,A8,FALSE,Std 1to1000-2,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,30.497,30.559,0.06,,,,TRUE,0.206,TRUE,1,40,,,,,,1.345,0.99,N,N,N,N,N,N
+9,A9,FALSE,Std 1to1000-3,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,30.616,30.559,0.06,,,,TRUE,0.206,TRUE,1,40,,,,,,1.347,0.985,N,N,N,N,N,N
+10,A10,FALSE,Std 1to100000-1,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,38.265,37.553,0.617,,,,TRUE,0.206,TRUE,1,40,,,,,,1.141,0.883,N,Y,N,Y,N,N
+11,A11,FALSE,Std 1to100000-2,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,37.208,37.553,0.617,,,,TRUE,0.206,TRUE,1,40,,,,,,1.209,0.955,N,Y,N,N,N,N
+12,A12,FALSE,Std 1to100000-3,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,37.186,37.553,0.617,,,,TRUE,0.206,TRUE,1,40,,,,,,1.197,0.958,N,Y,N,N,N,N
+25,B1,FALSE,ALHT Deer_79-1,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,26.696,26.744,0.117,,,,TRUE,0.206,TRUE,1,40,,,,,,1.338,0.992,N,N,N,N,N,N
+26,B2,FALSE,ALHT Deer_79-2,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,26.659,26.744,0.117,,,,TRUE,0.206,TRUE,1,40,,,,,,1.334,0.979,N,N,N,N,N,N
+27,B3,FALSE,ALHT Deer_79-3,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,26.877,26.744,0.117,,,,TRUE,0.206,TRUE,1,40,,,,,,1.327,0.98,N,N,N,N,N,N
+28,B4,FALSE,Std 1to100-1,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,27.164,27.199,0.053,,,,TRUE,0.206,TRUE,1,40,,,,,,1.344,0.983,N,N,N,N,N,N
+29,B5,FALSE,Std 1to100-2,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,27.173,27.199,0.053,,,,TRUE,0.206,TRUE,1,40,,,,,,1.347,0.987,N,N,N,N,N,N
+30,B6,FALSE,Std 1to100-3,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,27.26,27.199,0.053,,,,TRUE,0.206,TRUE,1,40,,,,,,1.35,0.987,N,N,N,N,N,N
+31,B7,FALSE,Std 1to10000-1,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,33.073,33.395,0.309,,,,TRUE,0.206,TRUE,1,40,,,,,,1.355,0.977,N,N,N,N,N,N
+32,B8,FALSE,Std 1to10000-2,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,33.423,33.395,0.309,,,,TRUE,0.206,TRUE,1,40,,,,,,1.354,0.982,N,N,N,N,N,N
+33,B9,FALSE,Std 1to10000-3,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,33.69,33.395,0.309,,,,TRUE,0.206,TRUE,1,40,,,,,,1.351,0.983,N,N,N,N,N,N
+34,B10,FALSE,NTC-1,A. phagocytophilum,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.206,TRUE,1,40,,,,,,0,0,N,N,N,N,N,N
+35,B11,FALSE,NTC-2,A. phagocytophilum,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.206,TRUE,1,40,,,,,,0,0,N,N,N,N,N,N
+36,B12,FALSE,NTC-3,A. phagocytophilum,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.206,TRUE,1,40,,,,,,0,0,N,N,N,N,N,N
+49,C1,FALSE,EQ02442194-1,B. microti,UNKNOWN,FAM,NFQ-MGB,37.832,37.29,0.47,,,,TRUE,0.161,TRUE,1,40,,,,,,0.98,0.492,N,N,N,N,N,N
+50,C2,FALSE,EQ02442194-2,B. microti,UNKNOWN,FAM,NFQ-MGB,36.991,37.29,0.47,,,,TRUE,0.161,TRUE,1,40,,,,,,1.024,0.879,N,N,N,N,N,N
+51,C3,FALSE,EQ02442194-3,B. microti,UNKNOWN,FAM,NFQ-MGB,37.047,37.29,0.47,,,,TRUE,0.161,TRUE,1,40,,,,,,1.076,0.909,N,N,N,N,N,N
+52,C4,FALSE,Std 1to10-1,B. microti,UNKNOWN,FAM,NFQ-MGB,23.254,23.244,0.016,,,,TRUE,0.161,TRUE,1,40,,,,,,1.43,0.986,N,N,N,N,N,N
+53,C5,FALSE,Std 1to10-2,B. microti,UNKNOWN,FAM,NFQ-MGB,23.226,23.244,0.016,,,,TRUE,0.161,TRUE,1,40,,,,,,1.444,0.992,N,N,N,N,N,N
+54,C6,FALSE,Std 1to10-3,B. microti,UNKNOWN,FAM,NFQ-MGB,23.252,23.244,0.016,,,,TRUE,0.161,TRUE,1,40,,,,,,1.432,0.99,N,N,N,N,N,N
+55,C7,FALSE,Std 1to1000-1,B. microti,UNKNOWN,FAM,NFQ-MGB,29.889,29.846,0.043,,,,TRUE,0.161,TRUE,1,40,,,,,,1.434,0.989,N,N,N,N,N,N
+56,C8,FALSE,Std 1to1000-2,B. microti,UNKNOWN,FAM,NFQ-MGB,29.845,29.846,0.043,,,,TRUE,0.161,TRUE,1,40,,,,,,1.436,0.988,N,N,N,N,N,N
+57,C9,FALSE,Std 1to1000-3,B. microti,UNKNOWN,FAM,NFQ-MGB,29.803,29.846,0.043,,,,TRUE,0.161,TRUE,1,40,,,,,,1.433,0.988,N,N,N,N,N,N
+58,C10,FALSE,Std 1to100000-1,B. microti,UNKNOWN,FAM,NFQ-MGB,35.947,36.025,0.135,,,,TRUE,0.161,TRUE,1,40,,,,,,1.316,0.972,N,N,N,N,N,N
+59,C11,FALSE,Std 1to100000-2,B. microti,UNKNOWN,FAM,NFQ-MGB,36.181,36.025,0.135,,,,TRUE,0.161,TRUE,1,40,,,,,,1.266,0.954,N,N,N,N,N,N
+60,C12,FALSE,Std 1to100000-3,B. microti,UNKNOWN,FAM,NFQ-MGB,35.947,36.025,0.135,,,,TRUE,0.161,TRUE,1,40,,,,,,1.286,0.958,N,N,N,N,N,N
+73,D1,FALSE,ALHT Deer_79-1,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.161,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,N
+74,D2,FALSE,ALHT Deer_79-2,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.161,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,N
+75,D3,FALSE,ALHT Deer_79-3,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.161,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,N
+76,D4,FALSE,Std 1to100-1,B. microti,UNKNOWN,FAM,NFQ-MGB,26.544,26.504,0.047,,,,TRUE,0.161,TRUE,1,40,,,,,,1.435,0.989,N,N,N,N,N,N
+77,D5,FALSE,Std 1to100-2,B. microti,UNKNOWN,FAM,NFQ-MGB,26.452,26.504,0.047,,,,TRUE,0.161,TRUE,1,40,,,,,,1.443,0.985,N,N,N,N,N,N
+78,D6,FALSE,Std 1to100-3,B. microti,UNKNOWN,FAM,NFQ-MGB,26.516,26.504,0.047,,,,TRUE,0.161,TRUE,1,40,,,,,,1.437,0.991,N,N,N,N,N,N
+79,D7,FALSE,Std 1to10000-1,B. microti,UNKNOWN,FAM,NFQ-MGB,32.849,32.983,0.259,,,,TRUE,0.161,TRUE,1,40,,,,,,1.426,0.988,N,N,N,N,N,N
+80,D8,FALSE,Std 1to10000-2,B. microti,UNKNOWN,FAM,NFQ-MGB,33.282,32.983,0.259,,,,TRUE,0.161,TRUE,1,40,,,,,,1.42,0.98,N,N,N,N,N,N
+81,D9,FALSE,Std 1to10000-3,B. microti,UNKNOWN,FAM,NFQ-MGB,32.818,32.983,0.259,,,,TRUE,0.161,TRUE,1,40,,,,,,1.413,0.98,N,N,N,N,N,N
+82,D10,FALSE,NTC-1,B. microti,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.161,TRUE,1,40,,,,,,0,0,N,N,N,N,N,N
+83,D11,FALSE,NTC-2,B. microti,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.161,TRUE,1,40,,,,,,0,0,N,N,N,N,N,N
+84,D12,FALSE,NTC-3,B. microti,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.161,TRUE,1,40,,,,,,0,0,N,N,N,N,N,N
+97,E1,FALSE,EQ02442194-1,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,32.7,32.688,0.083,,,,TRUE,0.107,TRUE,1,40,,,,,,1.262,0.983,N,N,N,N,N,N
+98,E2,FALSE,EQ02442194-2,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,32.764,32.688,0.083,,,,TRUE,0.107,TRUE,1,40,,,,,,1.271,0.968,N,N,N,N,N,N
+99,E3,FALSE,EQ02442194-3,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,32.599,32.688,0.083,,,,TRUE,0.107,TRUE,1,40,,,,,,1.266,0.981,N,N,N,N,N,N
+100,E4,FALSE,Std 1to10-1,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,25.389,25.261,0.15,,,,TRUE,0.107,TRUE,1,40,,,,,,1.265,0.983,N,N,N,N,N,N
+101,E5,FALSE,Std 1to10-2,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,25.298,25.261,0.15,,,,TRUE,0.107,TRUE,1,40,,,,,,1.266,0.98,N,N,N,N,N,N
+102,E6,FALSE,Std 1to10-3,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,25.095,25.261,0.15,,,,TRUE,0.107,TRUE,1,40,,,,,,1.264,0.984,N,N,N,N,N,N
+103,E7,FALSE,Std 1to1000-1,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,31.666,31.833,0.192,,,,TRUE,0.107,TRUE,1,40,,,,,,1.276,0.973,N,N,N,N,N,N
+104,E8,FALSE,Std 1to1000-2,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,31.79,31.833,0.192,,,,TRUE,0.107,TRUE,1,40,,,,,,1.273,0.975,N,N,N,N,N,N
+105,E9,FALSE,Std 1to1000-3,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,32.044,31.833,0.192,,,,TRUE,0.107,TRUE,1,40,,,,,,1.27,0.886,Y,N,N,N,N,N
+106,E10,FALSE,Std 1to100000-1,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,38.093,0.666,,,,TRUE,0.107,TRUE,1,40,,,,,,0.724,0,N,N,N,N,N,N
+107,E11,FALSE,Std 1to100000-2,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,38.565,38.093,0.666,,,,TRUE,0.107,TRUE,1,40,,,,,,0.974,0.516,N,Y,N,N,N,N
+108,E12,FALSE,Std 1to100000-3,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,37.622,38.093,0.666,,,,TRUE,0.107,TRUE,1,40,,,,,,1.039,0.91,N,Y,N,N,N,N
+121,F1,FALSE,ALHT Deer_79-1,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,37.494,37.774,0.397,,,,TRUE,0.107,TRUE,1,40,,,,,,1.056,0.936,N,N,N,N,N,N
+122,F2,FALSE,ALHT Deer_79-2,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,38.055,37.774,0.397,,,,TRUE,0.107,TRUE,1,40,,,,,,1.016,0.899,N,N,N,N,N,N
+123,F3,FALSE,ALHT Deer_79-3,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,37.774,0.397,,,,TRUE,0.107,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,N
+124,F4,FALSE,Std 1to100-1,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,28.364,28.431,0.064,,,,TRUE,0.107,TRUE,1,40,,,,,,1.254,0.983,N,N,N,N,N,N
+125,F5,FALSE,Std 1to100-2,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,28.439,28.431,0.064,,,,TRUE,0.107,TRUE,1,40,,,,,,1.265,0.984,N,N,N,N,N,N
+126,F6,FALSE,Std 1to100-3,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,28.49,28.431,0.064,,,,TRUE,0.107,TRUE,1,40,,,,,,1.262,0.969,N,N,N,N,N,N
+127,F7,FALSE,Std 1to10000-1,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,35.318,35.252,0.276,,,,TRUE,0.107,TRUE,1,40,,,,,,1.234,0.958,N,N,N,N,N,N
+128,F8,FALSE,Std 1to10000-2,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,34.949,35.252,0.276,,,,TRUE,0.107,TRUE,1,40,,,,,,1.242,0.971,N,N,N,N,N,N
+129,F9,FALSE,Std 1to10000-3,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,35.488,35.252,0.276,,,,TRUE,0.107,TRUE,1,40,,,,,,1.22,0.96,N,N,N,N,N,N
+130,F10,FALSE,NTC-1,B. burgdorferi,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.107,TRUE,1,40,,,,,,0,0,N,N,N,N,N,N
+131,F11,FALSE,NTC-2,B. burgdorferi,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.107,TRUE,1,40,,,,,,0,0,N,N,N,N,N,N
+132,F12,FALSE,NTC-3,B. burgdorferi,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.107,TRUE,1,40,,,,,,0,0,N,N,N,N,N,N
+145,G1,FALSE,EQ02442194-1,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.256,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,N
+146,G2,FALSE,EQ02442194-2,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.256,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,N
+147,G3,FALSE,EQ02442194-3,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.256,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,N
+148,G4,FALSE,Std 1to10-1,B. mayonii,UNKNOWN,FAM,NFQ-MGB,24.597,24.535,0.061,,,,TRUE,0.256,TRUE,1,40,,,,,,1.367,0.988,N,N,N,N,N,N
+149,G5,FALSE,Std 1to10-2,B. mayonii,UNKNOWN,FAM,NFQ-MGB,24.475,24.535,0.061,,,,TRUE,0.256,TRUE,1,40,,,,,,1.375,0.986,N,N,N,N,N,N
+150,G6,FALSE,Std 1to10-3,B. mayonii,UNKNOWN,FAM,NFQ-MGB,24.533,24.535,0.061,,,,TRUE,0.256,TRUE,1,40,,,,,,1.376,0.988,N,N,N,N,N,N
+151,G7,FALSE,Std 1to1000-1,B. mayonii,UNKNOWN,FAM,NFQ-MGB,30.891,30.795,0.113,,,,TRUE,0.256,TRUE,1,40,,,,,,1.379,0.982,N,N,N,N,N,N
+152,G8,FALSE,Std 1to1000-2,B. mayonii,UNKNOWN,FAM,NFQ-MGB,30.825,30.795,0.113,,,,TRUE,0.256,TRUE,1,40,,,,,,1.376,0.987,N,N,N,N,N,N
+153,G9,FALSE,Std 1to1000-3,B. mayonii,UNKNOWN,FAM,NFQ-MGB,30.67,30.795,0.113,,,,TRUE,0.256,TRUE,1,40,,,,,,1.382,0.983,N,N,N,N,N,N
+154,G10,FALSE,Std 1to100000-1,B. mayonii,UNKNOWN,FAM,NFQ-MGB,38.128,37.17,0.871,,,,TRUE,0.256,TRUE,1,40,,,,,,1.181,0.944,N,Y,N,N,N,N
+155,G11,FALSE,Std 1to100000-2,B. mayonii,UNKNOWN,FAM,NFQ-MGB,36.429,37.17,0.871,,,,TRUE,0.256,TRUE,1,40,,,,,,1.293,0.973,N,Y,N,N,N,N
+156,G12,FALSE,Std 1to100000-3,B. mayonii,UNKNOWN,FAM,NFQ-MGB,36.953,37.17,0.871,,,,TRUE,0.256,TRUE,1,40,,,,,,1.278,0.964,N,Y,N,N,N,N
+169,H1,FALSE,ALHT Deer_79-1,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.256,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,N
+170,H2,FALSE,ALHT Deer_79-2,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.256,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,N
+171,H3,FALSE,ALHT Deer_79-3,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.256,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,N
+172,H4,FALSE,Std 1to100-1,B. mayonii,UNKNOWN,FAM,NFQ-MGB,27.627,27.665,0.036,,,,TRUE,0.256,TRUE,1,40,,,,,,1.368,0.988,N,N,N,N,N,N
+173,H5,FALSE,Std 1to100-2,B. mayonii,UNKNOWN,FAM,NFQ-MGB,27.669,27.665,0.036,,,,TRUE,0.256,TRUE,1,40,,,,,,1.372,0.983,N,N,N,N,N,N
+174,H6,FALSE,Std 1to100-3,B. mayonii,UNKNOWN,FAM,NFQ-MGB,27.699,27.665,0.036,,,,TRUE,0.256,TRUE,1,40,,,,,,1.374,0.986,N,N,N,N,N,N
+175,H7,FALSE,Std 1to10000-1,B. mayonii,UNKNOWN,FAM,NFQ-MGB,34.173,34.226,0.336,,,,TRUE,0.256,TRUE,1,40,,,,,,1.383,0.973,N,N,N,N,N,N
+176,H8,FALSE,Std 1to10000-2,B. mayonii,UNKNOWN,FAM,NFQ-MGB,33.918,34.226,0.336,,,,TRUE,0.256,TRUE,1,40,,,,,,1.376,0.982,N,N,N,N,N,N
+177,H9,FALSE,Std 1to10000-3,B. mayonii,UNKNOWN,FAM,NFQ-MGB,34.585,34.226,0.336,,,,TRUE,0.256,TRUE,1,40,,,,,,1.374,0.976,N,N,N,N,N,N
+178,H10,FALSE,NTC-1,B. mayonii,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.256,TRUE,1,40,,,,,,0,0,N,N,N,N,N,N
+179,H11,FALSE,NTC-2,B. mayonii,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.256,TRUE,1,40,,,,,,0,0,N,N,N,N,N,N
+180,H12,FALSE,NTC-3,B. mayonii,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.256,TRUE,1,40,,,,,,0,0,N,N,N,N,N,N
+193,I1,FALSE,EQ02442194-1,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.04,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,Y
+194,I2,FALSE,EQ02442194-2,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.04,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,Y
+195,I3,FALSE,EQ02442194-3,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.04,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,Y
+196,I4,FALSE,Std 1to10-1,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,32.291,32.181,0.282,,,,TRUE,0.04,TRUE,1,40,,,,,,1.373,0.987,N,N,N,N,N,Y
+197,I5,FALSE,Std 1to10-2,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,32.391,32.181,0.282,,,,TRUE,0.04,TRUE,1,40,,,,,,1.373,0.985,N,N,N,N,N,Y
+198,I6,FALSE,Std 1to10-3,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,31.86,32.181,0.282,,,,TRUE,0.04,TRUE,1,40,,,,,,1.379,0.98,N,N,N,N,N,Y
+199,I7,FALSE,Std 1to1000-1,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,39.243,39.232,0.128,,,,TRUE,0.04,TRUE,1,40,,,,,,0.637,0,N,N,N,N,N,Y
+200,I8,FALSE,Std 1to1000-2,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,39.099,39.232,0.128,,,,TRUE,0.04,TRUE,1,40,,,,,,0.694,0,N,N,N,N,N,Y
+201,I9,FALSE,Std 1to1000-3,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,39.354,39.232,0.128,,,,TRUE,0.04,TRUE,1,40,,,,,,0.632,0,N,N,N,N,N,Y
+202,I10,FALSE,Std 1to100000-1,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.04,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,Y
+203,I11,FALSE,Std 1to100000-2,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.04,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,Y
+204,I12,FALSE,Std 1to100000-3,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.04,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,Y
+217,J1,FALSE,ALHT Deer_79-1,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,36.301,36.361,0.329,,,,TRUE,0.04,TRUE,1,40,,,,,,1.104,0.956,N,N,N,N,N,Y
+218,J2,FALSE,ALHT Deer_79-2,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,36.066,36.361,0.329,,,,TRUE,0.04,TRUE,1,40,,,,,,1.037,0.945,N,N,N,N,N,Y
+219,J3,FALSE,ALHT Deer_79-3,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,36.717,36.361,0.329,,,,TRUE,0.04,TRUE,1,40,,,,,,1.016,0.927,N,N,N,N,N,Y
+220,J4,FALSE,Std 1to100-1,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,35.839,35.647,0.173,,,,TRUE,0.04,TRUE,1,40,,,,,,1.127,0.948,N,N,N,N,N,Y
+221,J5,FALSE,Std 1to100-2,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,35.503,35.647,0.173,,,,TRUE,0.04,TRUE,1,40,,,,,,1.137,0.954,N,N,N,N,N,Y
+222,J6,FALSE,Std 1to100-3,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,35.598,35.647,0.173,,,,TRUE,0.04,TRUE,1,40,,,,,,1.102,0.93,N,N,N,N,N,Y
+223,J7,FALSE,Std 1to10000-1,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.04,TRUE,1,40,,,,,,0,0,N,N,N,N,Y,Y
+224,J8,FALSE,Std 1to10000-2,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.04,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,Y
+225,J9,FALSE,Std 1to10000-3,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.04,TRUE,1,40,,,,,,0.602,0,N,N,N,N,Y,Y
+226,J10,FALSE,NTC-1,B. miyamotoi,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.04,TRUE,1,40,,,,,,0,0,N,N,N,N,N,Y
+227,J11,FALSE,NTC-2,B. miyamotoi,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.04,TRUE,1,40,,,,,,0,0,N,N,N,N,N,Y
+228,J12,FALSE,NTC-3,B. miyamotoi,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.04,TRUE,1,40,,,,,,0,0,N,N,N,N,N,Y
+241,K1,FALSE,EQ02442194-1,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.25,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,N
+242,K2,FALSE,EQ02442194-2,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.25,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,N
+243,K3,FALSE,EQ02442194-3,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.25,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,N
+244,K4,FALSE,Std 1to10-1,E. muris,UNKNOWN,FAM,NFQ-MGB,22.968,22.859,0.096,,,,TRUE,0.25,TRUE,1,40,,,,,,1.489,0.982,N,N,N,N,N,N
+245,K5,FALSE,Std 1to10-2,E. muris,UNKNOWN,FAM,NFQ-MGB,22.785,22.859,0.096,,,,TRUE,0.25,TRUE,1,40,,,,,,1.497,0.982,N,N,N,N,N,N
+246,K6,FALSE,Std 1to10-3,E. muris,UNKNOWN,FAM,NFQ-MGB,22.825,22.859,0.096,,,,TRUE,0.25,TRUE,1,40,,,,,,1.495,0.975,N,N,N,N,N,N
+247,K7,FALSE,Std 1to1000-1,E. muris,UNKNOWN,FAM,NFQ-MGB,29.396,29.409,0.042,,,,TRUE,0.25,TRUE,1,40,,,,,,1.491,0.974,N,N,N,N,N,N
+248,K8,FALSE,Std 1to1000-2,E. muris,UNKNOWN,FAM,NFQ-MGB,29.375,29.409,0.042,,,,TRUE,0.25,TRUE,1,40,,,,,,1.488,0.972,N,N,N,N,N,N
+249,K9,FALSE,Std 1to1000-3,E. muris,UNKNOWN,FAM,NFQ-MGB,29.456,29.409,0.042,,,,TRUE,0.25,TRUE,1,40,,,,,,1.492,0.974,N,N,N,N,N,N
+250,K10,FALSE,Std 1to100000-1,E. muris,UNKNOWN,FAM,NFQ-MGB,37.427,36.367,1.131,,,,TRUE,0.25,TRUE,1,40,,,,,,1.254,0.906,N,Y,N,N,N,N
+251,K11,FALSE,Std 1to100000-2,E. muris,UNKNOWN,FAM,NFQ-MGB,35.177,36.367,1.131,,,,TRUE,0.25,TRUE,1,40,,,,,,1.449,0.954,N,Y,N,N,N,N
+252,K12,FALSE,Std 1to100000-3,E. muris,UNKNOWN,FAM,NFQ-MGB,36.496,36.367,1.131,,,,TRUE,0.25,TRUE,1,40,,,,,,1.337,0.933,N,Y,N,N,N,N
+265,L1,FALSE,ALHT Deer_79-1,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.25,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,N
+266,L2,FALSE,ALHT Deer_79-2,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.25,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,N
+267,L3,FALSE,ALHT Deer_79-3,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.25,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,N
+268,L4,FALSE,Std 1to100-1,E. muris,UNKNOWN,FAM,NFQ-MGB,26.009,26.021,0.01,,,,TRUE,0.25,TRUE,1,40,,,,,,1.496,0.982,N,N,N,N,N,N
+269,L5,FALSE,Std 1to100-2,E. muris,UNKNOWN,FAM,NFQ-MGB,26.028,26.021,0.01,,,,TRUE,0.25,TRUE,1,40,,,,,,1.494,0.974,N,N,N,N,N,N
+270,L6,FALSE,Std 1to100-3,E. muris,UNKNOWN,FAM,NFQ-MGB,26.026,26.021,0.01,,,,TRUE,0.25,TRUE,1,40,,,,,,1.497,0.976,N,N,N,N,N,N
+271,L7,FALSE,Std 1to10000-1,E. muris,UNKNOWN,FAM,NFQ-MGB,32.465,32.593,0.126,,,,TRUE,0.25,TRUE,1,40,,,,,,1.49,0.969,N,N,N,N,N,N
+272,L8,FALSE,Std 1to10000-2,E. muris,UNKNOWN,FAM,NFQ-MGB,32.716,32.593,0.126,,,,TRUE,0.25,TRUE,1,40,,,,,,1.487,0.976,N,N,N,N,N,N
+273,L9,FALSE,Std 1to10000-3,E. muris,UNKNOWN,FAM,NFQ-MGB,32.597,32.593,0.126,,,,TRUE,0.25,TRUE,1,40,,,,,,1.482,0.978,N,N,N,N,N,N
+274,L10,FALSE,NTC-1,E. muris,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.25,TRUE,1,40,,,,,,0,0,N,N,N,N,N,N
+275,L11,FALSE,NTC-2,E. muris,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.25,TRUE,1,40,,,,,,0,0,N,N,N,N,N,N
+276,L12,FALSE,NTC-3,E. muris,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.25,TRUE,1,40,,,,,,0,0,N,N,N,N,N,N
+289,M1,FALSE,EQ02442194-1,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.087,TRUE,1,40,,,,,,0,0,N,N,Y,N,Y,N
+290,M2,FALSE,EQ02442194-2,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.087,TRUE,1,40,,,,,,0,0,N,N,N,N,Y,N
+291,M3,FALSE,EQ02442194-3,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.087,TRUE,1,40,,,,,,0.56,0,N,N,N,N,N,N
+292,M4,FALSE,Std 1to10-1,Powassan virus,UNKNOWN,FAM,NFQ-MGB,22.213,22.076,0.14,,,,TRUE,0.087,TRUE,1,40,,,,,,1.485,0.882,N,N,N,N,N,N
+293,M5,FALSE,Std 1to10-2,Powassan virus,UNKNOWN,FAM,NFQ-MGB,22.082,22.076,0.14,,,,TRUE,0.087,TRUE,1,40,,,,,,1.48,0.901,N,N,N,N,N,N
+294,M6,FALSE,Std 1to10-3,Powassan virus,UNKNOWN,FAM,NFQ-MGB,21.932,22.076,0.14,,,,TRUE,0.087,TRUE,1,40,,,,,,1.485,0.873,N,N,N,N,N,N
+295,M7,FALSE,Std 1to1000-1,Powassan virus,UNKNOWN,FAM,NFQ-MGB,27.657,27.637,0.053,,,,TRUE,0.087,TRUE,1,40,,,,,,1.393,0.955,N,N,N,N,N,N
+296,M8,FALSE,Std 1to1000-2,Powassan virus,UNKNOWN,FAM,NFQ-MGB,27.577,27.637,0.053,,,,TRUE,0.087,TRUE,1,40,,,,,,1.377,0.961,N,N,N,N,N,N
+297,M9,FALSE,Std 1to1000-3,Powassan virus,UNKNOWN,FAM,NFQ-MGB,27.677,27.637,0.053,,,,TRUE,0.087,TRUE,1,40,,,,,,1.384,0.957,N,N,N,N,N,N
+298,M10,FALSE,Std 1to100000-1,Powassan virus,UNKNOWN,FAM,NFQ-MGB,35.536,34.301,1.109,,,,TRUE,0.087,TRUE,1,40,,,,,,0.926,0.699,N,Y,N,N,N,N
+299,M11,FALSE,Std 1to100000-2,Powassan virus,UNKNOWN,FAM,NFQ-MGB,33.39,34.301,1.109,,,,TRUE,0.087,TRUE,1,40,,,,,,1.095,0.848,N,Y,N,N,N,N
+300,M12,FALSE,Std 1to100000-3,Powassan virus,UNKNOWN,FAM,NFQ-MGB,33.977,34.301,1.109,,,,TRUE,0.087,TRUE,1,40,,,,,,1.086,0.794,N,Y,N,N,N,N
+313,N1,FALSE,ALHT Deer_79-1,Powassan virus,UNKNOWN,FAM,NFQ-MGB,17.419,17.435,0.034,,,,TRUE,0.087,TRUE,1,40,,,,,,1.265,0.739,N,N,N,N,N,N
+314,N2,FALSE,ALHT Deer_79-2,Powassan virus,UNKNOWN,FAM,NFQ-MGB,17.411,17.435,0.034,,,,TRUE,0.087,TRUE,1,40,,,,,,1.26,0.75,N,N,N,N,N,N
+315,N3,FALSE,ALHT Deer_79-3,Powassan virus,UNKNOWN,FAM,NFQ-MGB,17.473,17.435,0.034,,,,TRUE,0.087,TRUE,1,40,,,,,,1.263,0.76,N,N,N,N,N,N
+316,N4,FALSE,Std 1to100-1,Powassan virus,UNKNOWN,FAM,NFQ-MGB,24.706,24.714,0.015,,,,TRUE,0.087,TRUE,1,40,,,,,,1.429,0.966,N,N,N,N,N,N
+317,N5,FALSE,Std 1to100-2,Powassan virus,UNKNOWN,FAM,NFQ-MGB,24.731,24.714,0.015,,,,TRUE,0.087,TRUE,1,40,,,,,,1.428,0.983,N,N,N,N,N,N
+318,N6,FALSE,Std 1to100-3,Powassan virus,UNKNOWN,FAM,NFQ-MGB,24.705,24.714,0.015,,,,TRUE,0.087,TRUE,1,40,,,,,,1.425,0.948,N,N,N,N,N,N
+319,N7,FALSE,Std 1to10000-1,Powassan virus,UNKNOWN,FAM,NFQ-MGB,30.879,30.704,0.152,,,,TRUE,0.087,TRUE,1,40,,,,,,1.262,0.903,N,N,N,N,N,N
+320,N8,FALSE,Std 1to10000-2,Powassan virus,UNKNOWN,FAM,NFQ-MGB,30.635,30.704,0.152,,,,TRUE,0.087,TRUE,1,40,,,,,,1.27,0.957,N,N,N,N,N,N
+321,N9,FALSE,Std 1to10000-3,Powassan virus,UNKNOWN,FAM,NFQ-MGB,30.599,30.704,0.152,,,,TRUE,0.087,TRUE,1,40,,,,,,1.272,0.913,N,N,N,N,N,N
+322,N10,FALSE,NTC-1,Powassan virus,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.087,TRUE,1,40,,,,,,0,0,N,N,N,N,N,N
+323,N11,FALSE,NTC-2,Powassan virus,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.087,TRUE,1,40,,,,,,0,0,N,N,N,N,N,N
+324,N12,FALSE,NTC-3,Powassan virus,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.087,TRUE,1,40,,,,,,0,0,N,N,N,N,N,N
+337,O1,FALSE,EQ02442194-1,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.495,26.423,0.063,,,,TRUE,0.126,TRUE,1,40,,,,,,1.205,0.988,N,N,N,N,N,N
+338,O2,FALSE,EQ02442194-2,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.388,26.423,0.063,,,,TRUE,0.126,TRUE,1,40,,,,,,1.209,0.988,N,N,N,N,N,N
+339,O3,FALSE,EQ02442194-3,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.385,26.423,0.063,,,,TRUE,0.126,TRUE,1,40,,,,,,1.208,0.982,N,N,N,N,N,N
+340,O4,FALSE,Std 1to10-1,Extraction Control,UNKNOWN,FAM,NFQ-MGB,23.94,23.884,0.049,,,,TRUE,0.126,TRUE,1,40,,,,,,1.197,0.984,N,N,N,N,N,N
+341,O5,FALSE,Std 1to10-2,Extraction Control,UNKNOWN,FAM,NFQ-MGB,23.862,23.884,0.049,,,,TRUE,0.126,TRUE,1,40,,,,,,1.205,0.986,N,N,N,N,N,N
+342,O6,FALSE,Std 1to10-3,Extraction Control,UNKNOWN,FAM,NFQ-MGB,23.85,23.884,0.049,,,,TRUE,0.126,TRUE,1,40,,,,,,1.202,0.986,N,N,N,N,N,N
+343,O7,FALSE,Std 1to1000-1,Extraction Control,UNKNOWN,FAM,NFQ-MGB,30.203,30.209,0.032,,,,TRUE,0.126,TRUE,1,40,,,,,,1.208,0.977,N,N,N,N,N,N
+344,O8,FALSE,Std 1to1000-2,Extraction Control,UNKNOWN,FAM,NFQ-MGB,30.244,30.209,0.032,,,,TRUE,0.126,TRUE,1,40,,,,,,1.196,0.97,N,N,N,N,N,N
+345,O9,FALSE,Std 1to1000-3,Extraction Control,UNKNOWN,FAM,NFQ-MGB,30.18,30.209,0.032,,,,TRUE,0.126,TRUE,1,40,,,,,,1.2,0.973,N,N,N,N,N,N
+346,O10,FALSE,Std 1to100000-1,Extraction Control,UNKNOWN,FAM,NFQ-MGB,38.623,37.659,0.858,,,,TRUE,0.126,TRUE,1,40,,,,,,0.974,0.416,N,Y,N,N,N,N
+347,O11,FALSE,Std 1to100000-2,Extraction Control,UNKNOWN,FAM,NFQ-MGB,36.98,37.659,0.858,,,,TRUE,0.126,TRUE,1,40,,,,,,1.08,0.964,N,Y,N,N,N,N
+348,O12,FALSE,Std 1to100000-3,Extraction Control,UNKNOWN,FAM,NFQ-MGB,37.374,37.659,0.858,,,,TRUE,0.126,TRUE,1,40,,,,,,1.074,0.955,N,Y,N,N,N,N
+361,P1,FALSE,ALHT Deer_79-1,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.724,26.486,0.209,,,,TRUE,0.126,TRUE,1,40,,,,,,1.205,0.986,N,N,N,N,N,N
+362,P2,FALSE,ALHT Deer_79-2,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.328,26.486,0.209,,,,TRUE,0.126,TRUE,1,40,,,,,,1.212,0.984,N,N,N,N,N,N
+363,P3,FALSE,ALHT Deer_79-3,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.407,26.486,0.209,,,,TRUE,0.126,TRUE,1,40,,,,,,1.211,0.983,N,N,N,N,N,N
+364,P4,FALSE,Std 1to100-1,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27,26.989,0.018,,,,TRUE,0.126,TRUE,1,40,,,,,,1.205,0.988,N,N,N,N,N,N
+365,P5,FALSE,Std 1to100-2,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.968,26.989,0.018,,,,TRUE,0.126,TRUE,1,40,,,,,,1.201,0.99,N,N,N,N,N,N
+366,P6,FALSE,Std 1to100-3,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.999,26.989,0.018,,,,TRUE,0.126,TRUE,1,40,,,,,,1.201,0.985,N,N,N,N,N,N
+367,P7,FALSE,Std 1to10000-1,Extraction Control,UNKNOWN,FAM,NFQ-MGB,33.577,33.583,0.083,,,,TRUE,0.126,TRUE,1,40,,,,,,1.213,0.975,N,N,N,N,N,N
+368,P8,FALSE,Std 1to10000-2,Extraction Control,UNKNOWN,FAM,NFQ-MGB,33.503,33.583,0.083,,,,TRUE,0.126,TRUE,1,40,,,,,,1.219,0.981,N,N,N,N,N,N
+369,P9,FALSE,Std 1to10000-3,Extraction Control,UNKNOWN,FAM,NFQ-MGB,33.668,33.583,0.083,,,,TRUE,0.126,TRUE,1,40,,,,,,1.217,0.977,N,N,N,N,N,N
+370,P10,FALSE,NTC-1,Extraction Control,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.126,TRUE,1,40,,,,,,0,0,N,N,N,N,N,N
+371,P11,FALSE,NTC-2,Extraction Control,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.126,TRUE,1,40,,,,,,0,0,N,N,N,N,N,N
+372,P12,FALSE,NTC-3,Extraction Control,NTC,FAM,NFQ-MGB,Undetermined,,,,,,TRUE,0.126,TRUE,1,40,,,,,,0,0,N,N,N,N,N,N

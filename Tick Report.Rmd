@@ -12,7 +12,7 @@ library(janitor)
 library(tidyverse)
 library(ggplot2)
 library(knitr)
-RawResults.dat <- read.csv("2024-05-15 Tick Pathogen PCR Test 6(Results).csv", header = FALSE)
+RawResults.dat <- read.csv(csv_file, header = FALSE)
 InstrumentInfo.dat <- head(RawResults.dat, n = 45)
 
 Tech <- InstrumentInfo.dat[45,2]
