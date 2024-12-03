@@ -3,7 +3,10 @@ library(tidyverse)
 library(ggplot2)
 library(knitr)
 
-csv_file <- "2024-05-15 Tick Pathogen PCR Test 6(Results).csv"
+#setwd("C:/Users/sethg/OneDrive/Documents/CoCo Lab/Lab_QC")
+setwd("C:/Users/swd22/OneDrive - USNH/Documents/GitHub/Lab_QC")
+
+csv_file <- "USGS-Ticks-qPCR01.csv"
 
 RawResults.dat <- read.csv(csv_file, header = FALSE)
 PCR_Results.dat <- tail(RawResults.dat, n = -46)
@@ -17,8 +20,6 @@ PCR_Results.dat$ct <- ifelse(is.na(PCR_Results.dat$ct), 41, PCR_Results.dat$ct)
 Samples <- unique(PCR_Results.dat$sample_name)
 csv_base_name <- tools::file_path_sans_ext(basename(csv_file))
 
-#setwd("C:/Users/sethg/OneDrive/Documents/CoCo Lab/Lab_QC")
-setwd("C:/Users/swd22/OneDrive - USNH/Documents/GitHub/Lab_QC")
 dir.create(csv_base_name, showWarnings = FALSE)
 
 # Loop through each sample name and generate a report

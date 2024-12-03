@@ -46,7 +46,7 @@ kable(ResultTable.dat[1:2], row.names = FALSE)
 
 ```
 
-A positive result is not a diagnosis of infection. If you are concerned about illness, you should consult your doctor. 
+A positive result is not a diagnosis of infection. If you are concerned about illness, you should consult your doctor. A positive result on the extraction control indicates that the method was successful and the test was capable of detecting other pathogens.
 
 # Instrument
 
