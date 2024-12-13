@@ -32,26 +32,15 @@ PCR_Results.dat$ct <- as.numeric(PCR_Results.dat$ct)
 PCR_Results.dat$quantity <- as.numeric(PCR_Results.dat$quantity)
 PCR_Results.dat$`r_superscript_2` <- as.numeric(PCR_Results.dat$r_superscript_2)
 PCR_Results.dat$ct <- ifelse(is.na(PCR_Results.dat$ct), 41, PCR_Results.dat$ct)
-# Each target has an empirically determined Ct cutoff that should be changed to reflect the assay as they are updated
-PCR_Results.dat <- PCR_Results.dat %>%
-  mutate(
-    pass_check = case_when(
-      target_name == "A. phagocytophilum" & ct < 35 & amp_score > 1 & cq_conf > 0.8 ~ TRUE,
-      target_name == "B. microti" & ct < 35 & amp_score > 1 & cq_conf > 0.8 ~ TRUE,
-      target_name == "B. burgdorferi" & ct < 34 & amp_score > 1 & cq_conf > 0.8 ~ TRUE,      
-      target_name == "B. mayonii" & ct < 35 & amp_score > 1 & cq_conf > 0.8 ~ TRUE,
-      target_name == "B. miyamotoi" & ct < 36 & amp_score > 1 & cq_conf > 0.8 ~ TRUE,
-      target_name == "E. muris" & ct < 34 & amp_score > 1 & cq_conf > 0.8 ~ TRUE,      
-      target_name == "Powassan virus" & ct < 35 & amp_score > 1 & cq_conf > 0.8 ~ TRUE,
-      target_name == "Extraction Control" & ct < 36 & amp_score > 1 & cq_conf > 0.8 ~ TRUE,
-      TRUE ~ FALSE
-    )
-  )
+PCR_Results.dat=within(PCR_Results.dat,{
+  result=NA
+  result[ ct<"35"] = "POSITIVE"
+  result[ ct>="35"] = "negative"
+})
 
 SampleName.dat <- subset(PCR_Results.dat, sample_name == sample)
-ResultTable.dat <- select(SampleName.dat, c('target_name', 'pass_check'))
+ResultTable.dat <- select(SampleName.dat, c('target_name', 'result'))
 Names <- c("*Anaplasma phagocytophilum*", "*Babesia microti*", "*Borrelia burgdorferi*", "*Borrelia mayonii*", "*Borrelia miyamotoi*", "*Ehrlichia muris eauclarensis*", "Powassan virus", "Extraction Control")
-colnames(ResultTable.dat) <- c("Target Name", "Result")
 ResultTable.dat$target_name <- Names
 kable(ResultTable.dat[1:2], row.names = FALSE)
 
