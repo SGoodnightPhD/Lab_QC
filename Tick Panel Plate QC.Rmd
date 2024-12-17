@@ -44,44 +44,118 @@ PCR_Results.dat$ct <- ifelse(is.na(PCR_Results.dat$ct), 41, PCR_Results.dat$ct)
 
 # Check for at least one positive for each target
 # Each target has an empirically determined Ct cutoff that should be changed to reflect the assay as they are updated
+# Add a pass_check column with conditions for each target
 PCR_Results.dat <- PCR_Results.dat %>%
   mutate(
     pass_check = case_when(
-      target_name == "A. phagocytophilum" & ct < 35 & amp_score > 1 & cq_conf > 0.8 ~ TRUE,
-      target_name == "B. microti" & ct < 35 & amp_score > 1 & cq_conf > 0.8 ~ TRUE,
-      target_name == "B. burgdorferi" & ct < 34 & amp_score > 1 & cq_conf > 0.8 ~ TRUE,      
-      target_name == "B. mayonii" & ct < 35 & amp_score > 1 & cq_conf > 0.8 ~ TRUE,
-      target_name == "B. miyamotoi" & ct < 36 & amp_score > 1 & cq_conf > 0.8 ~ TRUE,
-      target_name == "E. muris" & ct < 34 & amp_score > 1 & cq_conf > 0.8 ~ TRUE,      
-      target_name == "Powassan virus" & ct < 35 & amp_score > 1 & cq_conf > 0.8 ~ TRUE,
-      target_name == "Extraction Control" & ct < 36 & amp_score > 1 & cq_conf > 0.8 ~ TRUE,
-      TRUE ~ FALSE
+      target_name == "A. phagocytophilum" & ct < 35 & amp_score > 1 & cq_conf > 0.8 ~ "Positive",
+      target_name == "B. microti" & ct < 35 & amp_score > 1 & cq_conf > 0.8 ~ "Positive",
+      target_name == "B. burgdorferi" & ct < 34 & amp_score > 1 & cq_conf > 0.8 ~ "Positive",
+      target_name == "B. mayonii" & ct < 35 & amp_score > 1 & cq_conf > 0.8 ~ "Positive",
+      target_name == "B. miyamotoi" & ct < 36 & amp_score > 1 & cq_conf > 0.8 ~ "Positive",
+      target_name == "E. muris" & ct < 34 & amp_score > 1 & cq_conf > 0.8 ~ "Positive",
+      target_name == "Powassan virus" & ct < 35 & amp_score > 1 & cq_conf > 0.8 ~ "Positive",
+      target_name == "Extraction Control" & ct < 36 & amp_score > 1 & cq_conf > 0.8 ~ "Positive",
+      target_name == "A. phagocytophilum" & ct < 35 & (amp_score <= 1 | cq_conf <= 0.8) ~ "Inconclusive",
+      target_name == "B. microti" & ct < 35 & (amp_score <= 1 | cq_conf <= 0.8) ~ "Inconclusive",
+      target_name == "B. burgdorferi" & ct < 34 & (amp_score <= 1 | cq_conf <= 0.8) ~ "Inconclusive",
+      target_name == "B. mayonii" & ct < 35 & (amp_score <= 1 | cq_conf <= 0.8) ~ "Inconclusive",
+      target_name == "B. miyamotoi" & ct < 36 & (amp_score <= 1 | cq_conf <= 0.8) ~ "Inconclusive",
+      target_name == "E. muris" & ct < 34 & (amp_score <= 1 | cq_conf <= 0.8) ~ "Inconclusive",
+      target_name == "Powassan virus" & ct < 35 & (amp_score <= 1 | cq_conf <= 0.8) ~ "Inconclusive",
+      target_name == "Extraction Control" & ct < 36 & (amp_score <= 1 | cq_conf <= 0.8) ~ "Inconclusive",
+      TRUE ~ "Negative"
     )
   )
 
+
 Anaplasma_check <- PCR_Results.dat[PCR_Results.dat$target_name == "A. phagocytophilum", ]
-Ana_pass <- any(Anaplasma_check$pass_check)
+Ana_pass <- if ("Positive" %in% Anaplasma_check$pass_check) {
+  "Positive"
+} else if ("Inconclusive" %in% Anaplasma_check$pass_check) {
+  "Inconclusive"
+} else if (all(Anaplasma_check$pass_check == "Negative")) {
+  "Negative"
+} else {
+  "Unknown"  # Optional fallback
+}
 
 Babesia_check <- PCR_Results.dat[PCR_Results.dat$target_name == "B. microti", ]
-Babesia_pass <- any(Babesia_check$pass_check)
+Babesia_pass <- if ("Positive" %in% Babesia_check$pass_check) {
+  "Positive"
+} else if ("Inconclusive" %in% Babesia_check$pass_check) {
+  "Inconclusive"
+} else if (all(Babesia_check$pass_check == "Negative")) {
+  "Negative"
+} else {
+  "Unknown"  # Optional fallback
+}
 
 Bburgdorf_check <- PCR_Results.dat[PCR_Results.dat$target_name == "B. burgdorferi", ]
-Bburgdorf_pass <- any(Bburgdorf_check$pass_check)
+Bburgdorf_pass <- if ("Positive" %in% Bburgdorf_check$pass_check) {
+  "Positive"
+} else if ("Inconclusive" %in% Bburgdorf_check$pass_check) {
+  "Inconclusive"
+} else if (all(Bburgdorf_check$pass_check == "Negative")) {
+  "Negative"
+} else {
+  "Unknown"  # Optional fallback
+}
 
 Bmayo_check <- PCR_Results.dat[PCR_Results.dat$target_name == "B. mayonii", ]
-Bmayo_pass <- any(Bmayo_check$pass_check)
+Bmayo_pass <- if ("Positive" %in% Bmayo_check$pass_check) {
+  "Positive"
+} else if ("Inconclusive" %in% Bmayo_check$pass_check) {
+  "Inconclusive"
+} else if (all(Bmayo_check$pass_check == "Negative")) {
+  "Negative"
+} else {
+  "Unknown"  # Optional fallback
+}
 
 Bmiya_check <- PCR_Results.dat[PCR_Results.dat$target_name == "B. miyamotoi", ]
-Bmiya_pass <- any(Bmiya_check$pass_check)
+Bmiya_pass <- if ("Positive" %in% Bmiya_check$pass_check) {
+  "Positive"
+} else if ("Inconclusive" %in% Bmiya_check$pass_check) {
+  "Inconclusive"
+} else if (all(Bmiya_check$pass_check == "Negative")) {
+  "Negative"
+} else {
+  "Unknown"  # Optional fallback
+}
 
 Emuris_check <- PCR_Results.dat[PCR_Results.dat$target_name == "E. muris", ]
-Emuris_pass <- any(Emuris_check$pass_check)
+Emuris_pass <- if ("Positive" %in% Emuris_check$pass_check) {
+  "Positive"
+} else if ("Inconclusive" %in% Emuris_check$pass_check) {
+  "Inconclusive"
+} else if (all(Emuris_check$pass_check == "Negative")) {
+  "Negative"
+} else {
+  "Unknown"  # Optional fallback
+}
 
 Powassan_check <- PCR_Results.dat[PCR_Results.dat$target_name == "Powassan virus", ]
-Powassan_pass <- any(Powassan_check$pass_check)
+Powassan_pass <- if ("Positive" %in% Powassan_check$pass_check) {
+  "Positive"
+} else if ("Inconclusive" %in% Powassan_check$pass_check) {
+  "Inconclusive"
+} else if (all(Powassan_check$pass_check == "Negative")) {
+  "Negative"
+} else {
+  "Unknown"  # Optional fallback
+}
 
 Extraction_check <- PCR_Results.dat[PCR_Results.dat$target_name == "Extraction Control", ]
-Extraction_pass <- any(Extraction_check$pass_check)
+Extraction_pass <- if ("Positive" %in% Extraction_check$pass_check) {
+  "Positive"
+} else if ("Inconclusive" %in% Extraction_check$pass_check) {
+  "Inconclusive"
+} else if (all(Extraction_check$pass_check == "Negative")) {
+  "Negative"
+} else {
+  "Unknown"  # Optional fallback
+}
 
 plate_check <- c(Ana_pass, Babesia_pass, Bburgdorf_pass, Bmayo_pass, Bmiya_pass, Emuris_pass, Powassan_pass, Extraction_pass)
 

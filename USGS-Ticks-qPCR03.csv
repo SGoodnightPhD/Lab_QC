@@ -1,0 +1,431 @@
+Block Type,384-Well Block,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Background is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Background performed on,11-18-2024,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye ABY is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye ABY performed on,07-08-2024,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye CY5 is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye CY5 performed on,07-08-2024,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye FAM is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye FAM performed on,07-08-2024,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye JUN is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye JUN performed on,07-08-2024,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye MUSTANG PURPLE is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye MUSTANG PURPLE performed on,07-08-2024,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye NED is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye NED performed on,07-08-2024,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye ROX is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye ROX performed on,07-08-2024,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye SYBR is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye SYBR performed on,07-08-2024,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye TAMRA is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye TAMRA performed on,07-08-2024,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye VIC is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Pure Dye VIC performed on,07-08-2024,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration RNaseP is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration RNaseP performed on,07-08-2024,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration ROI is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration ROI performed on,07-08-2024,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Uniformity is expired,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calibration Uniformity performed on,07-08-2024,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Chemistry,TAQMAN,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Date Created,2024-12-04 14:35:11 PM EST,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Experiment Barcode,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Experiment Comment,USGS Ticks Batch 04 plate 01 qPCR03,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Experiment File Name,E:\Applied Biosystems\QuantStudio\Ticks\USGS-Ticks-qPCR03.eds,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Experiment Name,USGS-Ticks-qPCR03,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Experiment Run End Time,2024-12-04 16:46:40 PM EST,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Experiment Type,Standard Curve,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Instrument Name,278870712,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Instrument Serial Number,278870712,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Instrument Type,QuantStudio(TM) 7 Flex System,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Passive Reference,ROX,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Quantification Cycle Method,Ct,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Signal Smoothing On,true,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Stage/ Cycle where Analysis is performed,"Stage 4, Step 2",,,,,,,,,,,,,,,,,,,,,,,,,,,
+User Name,Erin,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Well,Well Position,Omit,Sample Name,Target Name,Task,Reporter,Quencher,CT,Ct Mean,Ct SD,Quantity,Quantity Mean,Quantity SD,Automatic Ct Threshold,Ct Threshold,Automatic Baseline,Baseline Start,Baseline End,Comments,Y-Intercept,R(superscript 2),Slope,Efficiency,Amp Score,Cq Conf,NOAMP,EXPFAIL,THOLDFAIL
+1,A1,false,TB_90024119,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.165,true,1,40,,,,,,0.000,0.000,Y,Y,N
+2,A2,false,TB_90024119,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.227,true,1,40,,,,,,0.000,0.000,Y,Y,N
+3,A3,false,TB_90024119,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+4,A4,false,TB_90024119,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+5,A5,false,TB_90024119,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+6,A6,false,TB_90024119,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+7,A7,false,TB_90024119,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+8,A8,false,TB_90024119,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.250,27.250,,,,,true,0.073,true,1,40,,,,,,1.113,0.983,N,N,N
+9,A9,false,TB_90024107,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.165,true,1,40,,,,,,0.000,0.000,N,Y,N
+10,A10,false,TB_90024107,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.227,true,1,40,,,,,,0.000,0.000,Y,Y,N
+11,A11,false,TB_90024107,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+12,A12,false,TB_90024107,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+13,A13,false,TB_90024107,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+14,A14,false,TB_90024107,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+15,A15,false,TB_90024107,Powassan virus,UNKNOWN,FAM,NFQ-MGB,18.901,18.901,,,,,true,0.040,true,1,40,,,,,,0.520,0.389,N,N,Y
+16,A16,false,TB_90024107,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.030,27.030,,,,,true,0.073,true,1,40,,,,,,1.102,0.977,N,N,N
+17,A17,false,ALHT Deer_39,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,32.064,32.064,,,,,true,0.165,true,1,40,,,,,,1.364,0.970,N,N,N
+18,A18,false,ALHT Deer_39,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.227,true,1,40,,,,,,0.000,0.000,Y,Y,N
+19,A19,false,ALHT Deer_39,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,N,Y
+20,A20,false,ALHT Deer_39,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+21,A21,false,ALHT Deer_39,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,N,N
+22,A22,false,ALHT Deer_39,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+23,A23,false,ALHT Deer_39,Powassan virus,UNKNOWN,FAM,NFQ-MGB,34.248,34.248,,,,,true,0.040,true,1,40,,,,,,0.277,0.000,N,N,Y
+24,A24,false,ALHT Deer_39,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.549,26.549,,,,,true,0.073,true,1,40,,,,,,1.258,0.989,N,N,N
+25,B1,false,ALHT Deer_99,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.165,true,1,40,,,,,,0.000,0.000,Y,Y,N
+26,B2,false,ALHT Deer_99,B. microti,UNKNOWN,FAM,NFQ-MGB,33.612,33.612,,,,,true,0.227,true,1,40,,,,,,1.400,0.984,N,N,N
+27,B3,false,ALHT Deer_99,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+28,B4,false,ALHT Deer_99,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+29,B5,false,ALHT Deer_99,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+30,B6,false,ALHT Deer_99,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+31,B7,false,ALHT Deer_99,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+32,B8,false,ALHT Deer_99,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.239,27.239,,,,,true,0.073,true,1,40,,,,,,1.115,0.985,N,N,N
+33,B9,false,ALHT Deer_26,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,33.564,33.564,,,,,true,0.165,true,1,40,,,,,,1.305,0.965,N,N,N
+34,B10,false,ALHT Deer_26,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.227,true,1,40,,,,,,0.000,0.000,Y,Y,N
+35,B11,false,ALHT Deer_26,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,27.900,27.900,,,,,true,0.040,true,1,40,,,,,,1.074,0.967,N,N,Y
+36,B12,false,ALHT Deer_26,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+37,B13,false,ALHT Deer_26,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+38,B14,false,ALHT Deer_26,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+39,B15,false,ALHT Deer_26,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.311,0.000,N,N,Y
+40,B16,false,ALHT Deer_26,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.273,27.273,,,,,true,0.073,true,1,40,,,,,,1.111,0.977,N,N,N
+41,B17,false,ALHT Deer_59,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,30.391,30.391,,,,,true,0.165,true,1,40,,,,,,1.394,0.970,N,N,N
+42,B18,false,ALHT Deer_59,B. microti,UNKNOWN,FAM,NFQ-MGB,17.338,17.338,,,,,true,0.227,true,1,40,,,,,,1.438,0.990,N,N,N
+43,B19,false,ALHT Deer_59,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,28.834,28.834,,,,,true,0.040,true,1,40,,,,,,1.431,0.902,N,N,Y
+44,B20,false,ALHT Deer_59,B. mayonii,UNKNOWN,FAM,NFQ-MGB,22.320,22.320,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,N,Y
+45,B21,false,ALHT Deer_59,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,23.050,23.050,,,,,true,0.175,true,1,40,,,,,,1.411,0.989,N,N,N
+46,B22,false,ALHT Deer_59,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+47,B23,false,ALHT Deer_59,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+48,B24,false,ALHT Deer_59,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.582,26.582,,,,,true,0.073,true,1,40,,,,,,1.268,0.989,N,N,N
+49,C1,false,TB_90024082,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.165,true,1,40,,,,,,0.868,0.000,N,N,N
+50,C2,false,TB_90024082,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.227,true,1,40,,,,,,0.000,0.000,Y,Y,N
+51,C3,false,TB_90024082,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+52,C4,false,TB_90024082,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+53,C5,false,TB_90024082,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+54,C6,false,TB_90024082,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+55,C7,false,TB_90024082,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+56,C8,false,TB_90024082,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.408,27.408,,,,,true,0.073,true,1,40,,,,,,1.112,0.981,N,N,N
+57,C9,false,ALHT Deer_25,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.165,true,1,40,,,,,,0.000,0.000,N,Y,N
+58,C10,false,ALHT Deer_25,B. microti,UNKNOWN,FAM,NFQ-MGB,37.907,37.907,,,,,true,0.227,true,1,40,,,,,,1.184,0.934,N,N,N
+59,C11,false,ALHT Deer_25,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+60,C12,false,ALHT Deer_25,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+61,C13,false,ALHT Deer_25,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+62,C14,false,ALHT Deer_25,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+63,C15,false,ALHT Deer_25,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.611,0.000,N,Y,Y
+64,C16,false,ALHT Deer_25,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.259,27.259,,,,,true,0.073,true,1,40,,,,,,1.112,0.973,N,N,N
+65,C17,false,ALHT Deer_43,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.165,true,1,40,,,,,,0.000,0.000,N,Y,N
+66,C18,false,ALHT Deer_43,B. microti,UNKNOWN,FAM,NFQ-MGB,28.652,28.652,,,,,true,0.227,true,1,40,,,,,,1.443,0.990,N,N,N
+67,C19,false,ALHT Deer_43,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,7.485,7.485,,,,,true,0.040,true,1,40,,,,,,0.609,0.155,N,N,Y
+68,C20,false,ALHT Deer_43,B. mayonii,UNKNOWN,FAM,NFQ-MGB,8.274,8.274,,,,,true,0.040,true,1,40,,,,,,0.340,0.000,N,N,Y
+69,C21,false,ALHT Deer_43,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,N,Y,N
+70,C22,false,ALHT Deer_43,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+71,C23,false,ALHT Deer_43,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+72,C24,false,ALHT Deer_43,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.649,26.649,,,,,true,0.073,true,1,40,,,,,,1.268,0.987,N,N,N
+73,D1,false,TB_90024102,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,36.100,36.100,,,,,true,0.165,true,1,40,,,,,,0.976,0.888,N,N,N
+74,D2,false,TB_90024102,B. microti,UNKNOWN,FAM,NFQ-MGB,36.288,36.288,,,,,true,0.227,true,1,40,,,,,,1.306,0.976,N,N,N
+75,D3,false,TB_90024102,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+76,D4,false,TB_90024102,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+77,D5,false,TB_90024102,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+78,D6,false,TB_90024102,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+79,D7,false,TB_90024102,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+80,D8,false,TB_90024102,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.294,27.294,,,,,true,0.073,true,1,40,,,,,,1.113,0.973,N,N,N
+81,D9,false,ALHT Deer_83,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,32.131,32.131,,,,,true,0.165,true,1,40,,,,,,1.342,0.973,N,N,N
+82,D10,false,ALHT Deer_83,B. microti,UNKNOWN,FAM,NFQ-MGB,38.772,38.772,,,,,true,0.227,true,1,40,,,,,,1.097,0.279,N,N,N
+83,D11,false,ALHT Deer_83,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+84,D12,false,ALHT Deer_83,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+85,D13,false,ALHT Deer_83,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,30.152,30.152,,,,,true,0.175,true,1,40,,,,,,1.304,0.980,N,N,N
+86,D14,false,ALHT Deer_83,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+87,D15,false,ALHT Deer_83,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.506,0.000,N,N,Y
+88,D16,false,ALHT Deer_83,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.419,27.419,,,,,true,0.073,true,1,40,,,,,,1.121,0.981,N,N,N
+89,D17,false,ALHT Deer_75.1,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,27.479,27.479,,,,,true,0.165,true,1,40,,,,,,1.384,0.969,N,N,N
+90,D18,false,ALHT Deer_75.1,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.227,true,1,40,,,,,,0.000,0.000,Y,Y,N
+91,D19,false,ALHT Deer_75.1,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+92,D20,false,ALHT Deer_75.1,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.420,0.000,N,Y,Y
+93,D21,false,ALHT Deer_75.1,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,N,Y,N
+94,D22,false,ALHT Deer_75.1,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+95,D23,false,ALHT Deer_75.1,Powassan virus,UNKNOWN,FAM,NFQ-MGB,35.276,35.276,,,,,true,0.040,true,1,40,,,,,,0.540,0.000,N,N,Y
+96,D24,false,ALHT Deer_75.1,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.588,26.588,,,,,true,0.073,true,1,40,,,,,,1.265,0.988,N,N,N
+97,E1,false,ALHT Deer_107,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,34.713,34.713,,,,,true,0.165,true,1,40,,,,,,0.977,0.927,N,N,N
+98,E2,false,ALHT Deer_107,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.227,true,1,40,,,,,,0.000,0.000,Y,Y,N
+99,E3,false,ALHT Deer_107,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+100,E4,false,ALHT Deer_107,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+101,E5,false,ALHT Deer_107,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+102,E6,false,ALHT Deer_107,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+103,E7,false,ALHT Deer_107,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+104,E8,false,ALHT Deer_107,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.218,27.218,,,,,true,0.073,true,1,40,,,,,,1.115,0.980,N,N,N
+105,E9,false,ALHT Deer_45,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,25.812,25.812,,,,,true,0.165,true,1,40,,,,,,1.352,0.979,N,N,N
+106,E10,false,ALHT Deer_45,B. microti,UNKNOWN,FAM,NFQ-MGB,36.668,36.668,,,,,true,0.227,true,1,40,,,,,,1.282,0.970,N,N,N
+107,E11,false,ALHT Deer_45,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,31.432,31.432,,,,,true,0.040,true,1,40,,,,,,1.202,0.928,N,N,Y
+108,E12,false,ALHT Deer_45,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+109,E13,false,ALHT Deer_45,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+110,E14,false,ALHT Deer_45,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+111,E15,false,ALHT Deer_45,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.552,0.000,N,N,Y
+112,E16,false,ALHT Deer_45,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.306,27.306,,,,,true,0.073,true,1,40,,,,,,1.127,0.980,N,N,N
+113,E17,false,ALHT Deer_87,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,32.184,32.184,,,,,true,0.165,true,1,40,,,,,,1.368,0.965,N,N,N
+114,E18,false,ALHT Deer_87,B. microti,UNKNOWN,FAM,NFQ-MGB,29.043,29.043,,,,,true,0.227,true,1,40,,,,,,1.438,0.988,N,N,N
+115,E19,false,ALHT Deer_87,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.528,0.000,N,Y,Y
+116,E20,false,ALHT Deer_87,B. mayonii,UNKNOWN,FAM,NFQ-MGB,21.108,21.108,,,,,true,0.040,true,1,40,,,,,,0.000,0.005,N,N,Y
+117,E21,false,ALHT Deer_87,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+118,E22,false,ALHT Deer_87,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.073,0.000,Y,Y,Y
+119,E23,false,ALHT Deer_87,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+120,E24,false,ALHT Deer_87,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.586,26.586,,,,,true,0.073,true,1,40,,,,,,1.290,0.974,N,N,N
+121,F1,false,4067,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.165,true,1,40,,,,,,0.000,0.000,Y,Y,N
+122,F2,false,4067,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.227,true,1,40,,,,,,0.000,0.000,Y,Y,N
+123,F3,false,4067,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+124,F4,false,4067,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+125,F5,false,4067,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+126,F6,false,4067,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+127,F7,false,4067,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+128,F8,false,4067,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.205,27.205,,,,,true,0.073,true,1,40,,,,,,1.111,0.980,N,N,N
+129,F9,false,ALHT Deer_82,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,22.151,22.151,,,,,true,0.165,true,1,40,,,,,,1.349,0.972,N,N,N
+130,F10,false,ALHT Deer_82,B. microti,UNKNOWN,FAM,NFQ-MGB,18.576,18.576,,,,,true,0.227,true,1,40,,,,,,1.441,0.992,N,N,N
+131,F11,false,ALHT Deer_82,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,28.656,28.656,,,,,true,0.040,true,1,40,,,,,,1.108,0.945,N,N,Y
+132,F12,false,ALHT Deer_82,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+133,F13,false,ALHT Deer_82,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,N,N
+134,F14,false,ALHT Deer_82,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+135,F15,false,ALHT Deer_82,Powassan virus,UNKNOWN,FAM,NFQ-MGB,34.305,34.305,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,N,Y
+136,F16,false,ALHT Deer_82,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.228,27.228,,,,,true,0.073,true,1,40,,,,,,1.141,0.978,N,N,N
+137,F17,false,ALHT Deer_75.2,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,36.906,36.906,,,,,true,0.165,true,1,40,,,,,,1.137,0.877,N,N,N
+138,F18,false,ALHT Deer_75.2,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.227,true,1,40,,,,,,0.000,0.000,Y,Y,N
+139,F19,false,ALHT Deer_75.2,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,34.389,34.389,,,,,true,0.040,true,1,40,,,,,,1.264,0.709,N,N,Y
+140,F20,false,ALHT Deer_75.2,B. mayonii,UNKNOWN,FAM,NFQ-MGB,24.324,24.324,,,,,true,0.040,true,1,40,,,,,,0.411,0.053,N,N,Y
+141,F21,false,ALHT Deer_75.2,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,N,Y,N
+142,F22,false,ALHT Deer_75.2,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,N,Y
+143,F23,false,ALHT Deer_75.2,Powassan virus,UNKNOWN,FAM,NFQ-MGB,33.912,33.912,,,,,true,0.040,true,1,40,,,,,,0.606,0.000,N,N,Y
+144,F24,false,ALHT Deer_75.2,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.582,26.582,,,,,true,0.073,true,1,40,,,,,,1.269,0.987,N,N,N
+145,G1,false,ALHT Deer_64,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,28.244,28.244,,,,,true,0.165,true,1,40,,,,,,1.031,0.938,N,N,N
+146,G2,false,ALHT Deer_64,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.227,true,1,40,,,,,,0.000,0.000,Y,Y,N
+147,G3,false,ALHT Deer_64,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+148,G4,false,ALHT Deer_64,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+149,G5,false,ALHT Deer_64,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+150,G6,false,ALHT Deer_64,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+151,G7,false,ALHT Deer_64,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+152,G8,false,ALHT Deer_64,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.270,27.270,,,,,true,0.073,true,1,40,,,,,,1.110,0.980,N,N,N
+153,G9,false,ALHT Deer_60,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,25.123,25.123,,,,,true,0.165,true,1,40,,,,,,1.371,0.979,N,N,N
+154,G10,false,ALHT Deer_60,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.227,true,1,40,,,,,,0.000,0.000,Y,Y,N
+155,G11,false,ALHT Deer_60,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,N,Y
+156,G12,false,ALHT Deer_60,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,N,Y
+157,G13,false,ALHT Deer_60,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,N,N
+158,G14,false,ALHT Deer_60,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+159,G15,false,ALHT Deer_60,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+160,G16,false,ALHT Deer_60,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.026,27.026,,,,,true,0.073,true,1,40,,,,,,1.156,0.984,N,N,N
+161,G17,false,ALHT Deer_88,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,24.699,24.699,,,,,true,0.165,true,1,40,,,,,,1.380,0.981,N,N,N
+162,G18,false,ALHT Deer_88,B. microti,UNKNOWN,FAM,NFQ-MGB,23.405,23.405,,,,,true,0.227,true,1,40,,,,,,1.429,0.990,N,N,N
+163,G19,false,ALHT Deer_88,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,28.258,28.258,,,,,true,0.040,true,1,40,,,,,,1.445,0.783,N,N,Y
+164,G20,false,ALHT Deer_88,B. mayonii,UNKNOWN,FAM,NFQ-MGB,28.392,28.392,,,,,true,0.040,true,1,40,,,,,,0.000,0.428,N,N,Y
+165,G21,false,ALHT Deer_88,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+166,G22,false,ALHT Deer_88,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+167,G23,false,ALHT Deer_88,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+168,G24,false,ALHT Deer_88,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.419,26.419,,,,,true,0.073,true,1,40,,,,,,1.276,0.977,N,N,N
+169,H1,false,ALHT Deer_90,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.165,true,1,40,,,,,,0.000,0.000,Y,Y,N
+170,H2,false,ALHT Deer_90,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.227,true,1,40,,,,,,0.000,0.000,Y,Y,N
+171,H3,false,ALHT Deer_90,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+172,H4,false,ALHT Deer_90,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+173,H5,false,ALHT Deer_90,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+174,H6,false,ALHT Deer_90,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+175,H7,false,ALHT Deer_90,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+176,H8,false,ALHT Deer_90,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.349,27.349,,,,,true,0.073,true,1,40,,,,,,1.104,0.983,N,N,N
+177,H9,false,ALHT Deer_33,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,28.203,28.203,,,,,true,0.165,true,1,40,,,,,,1.386,0.974,N,N,N
+178,H10,false,ALHT Deer_33,B. microti,UNKNOWN,FAM,NFQ-MGB,21.999,21.999,,,,,true,0.227,true,1,40,,,,,,1.433,0.993,N,N,N
+179,H11,false,ALHT Deer_33,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,34.818,34.818,,,,,true,0.040,true,1,40,,,,,,0.894,0.674,N,N,Y
+180,H12,false,ALHT Deer_33,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,N,Y
+181,H13,false,ALHT Deer_33,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+182,H14,false,ALHT Deer_33,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+183,H15,false,ALHT Deer_33,Powassan virus,UNKNOWN,FAM,NFQ-MGB,29.903,29.903,,,,,true,0.040,true,1,40,,,,,,0.476,0.379,N,N,Y
+184,H16,false,ALHT Deer_33,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.000,27.000,,,,,true,0.073,true,1,40,,,,,,1.168,0.979,N,N,N
+185,H17,false,ALHT Deer_35.1,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,23.052,23.052,,,,,true,0.165,true,1,40,,,,,,1.351,0.859,N,N,N
+186,H18,false,ALHT Deer_35.1,B. microti,UNKNOWN,FAM,NFQ-MGB,35.520,35.520,,,,,true,0.227,true,1,40,,,,,,1.381,0.970,N,N,N
+187,H19,false,ALHT Deer_35.1,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,34.677,34.677,,,,,true,0.040,true,1,40,,,,,,1.229,0.671,N,N,Y
+188,H20,false,ALHT Deer_35.1,B. mayonii,UNKNOWN,FAM,NFQ-MGB,33.163,33.163,,,,,true,0.040,true,1,40,,,,,,0.240,0.000,N,N,Y
+189,H21,false,ALHT Deer_35.1,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,19.954,19.954,,,,,true,0.175,true,1,40,,,,,,1.422,0.996,N,N,N
+190,H22,false,ALHT Deer_35.1,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+191,H23,false,ALHT Deer_35.1,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,N,Y
+192,H24,false,ALHT Deer_35.1,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.400,26.400,,,,,true,0.073,true,1,40,,,,,,1.280,0.980,N,N,N
+193,I1,false,ALHT Deer_93.2,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.165,true,1,40,,,,,,0.000,0.000,Y,Y,N
+194,I2,false,ALHT Deer_93.2,B. microti,UNKNOWN,FAM,NFQ-MGB,28.987,28.987,,,,,true,0.227,true,1,40,,,,,,1.430,0.985,N,N,N
+195,I3,false,ALHT Deer_93.2,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,31.539,31.539,,,,,true,0.040,true,1,40,,,,,,0.732,0.904,N,N,Y
+196,I4,false,ALHT Deer_93.2,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+197,I5,false,ALHT Deer_93.2,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+198,I6,false,ALHT Deer_93.2,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+199,I7,false,ALHT Deer_93.2,Powassan virus,UNKNOWN,FAM,NFQ-MGB,14.345,14.345,,,,,true,0.040,true,1,40,,,,,,0.241,0.194,Y,N,Y
+200,I8,false,ALHT Deer_93.2,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.321,27.321,,,,,true,0.073,true,1,40,,,,,,1.100,0.980,N,N,N
+201,I9,false,ALHT Deer_84,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,24.246,24.246,,,,,true,0.165,true,1,40,,,,,,1.363,0.928,N,N,N
+202,I10,false,ALHT Deer_84,B. microti,UNKNOWN,FAM,NFQ-MGB,25.240,25.240,,,,,true,0.227,true,1,40,,,,,,1.426,0.987,N,N,N
+203,I11,false,ALHT Deer_84,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,26.726,26.726,,,,,true,0.040,true,1,40,,,,,,1.328,0.901,N,N,Y
+204,I12,false,ALHT Deer_84,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+205,I13,false,ALHT Deer_84,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,23.597,23.597,,,,,true,0.175,true,1,40,,,,,,1.381,0.991,N,N,N
+206,I14,false,ALHT Deer_84,E. muris,UNKNOWN,FAM,NFQ-MGB,28.603,28.603,,,,,true,0.040,true,1,40,,,,,,0.000,0.290,N,N,Y
+207,I15,false,ALHT Deer_84,Powassan virus,UNKNOWN,FAM,NFQ-MGB,19.083,19.083,,,,,true,0.040,true,1,40,,,,,,1.279,0.516,N,N,Y
+208,I16,false,ALHT Deer_84,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.978,26.978,,,,,true,0.073,true,1,40,,,,,,1.184,0.972,N,N,N
+209,I17,false,ALHT Deer_09,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,31.805,31.805,,,,,true,0.165,true,1,40,,,,,,1.377,0.982,N,N,N
+210,I18,false,ALHT Deer_09,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.227,true,1,40,,,,,,0.000,0.000,Y,Y,N
+211,I19,false,ALHT Deer_09,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,35.527,35.527,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,N,Y
+212,I20,false,ALHT Deer_09,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,N,Y
+213,I21,false,ALHT Deer_09,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.726,0.000,N,N,N
+214,I22,false,ALHT Deer_09,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+215,I23,false,ALHT Deer_09,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.550,0.000,N,Y,Y
+216,I24,false,ALHT Deer_09,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.375,26.375,,,,,true,0.073,true,1,40,,,,,,1.304,0.988,N,N,N
+217,J1,false,TB_90024113,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.165,true,1,40,,,,,,0.000,0.000,Y,Y,N
+218,J2,false,TB_90024113,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.227,true,1,40,,,,,,0.000,0.000,Y,Y,N
+219,J3,false,TB_90024113,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+220,J4,false,TB_90024113,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+221,J5,false,TB_90024113,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+222,J6,false,TB_90024113,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+223,J7,false,TB_90024113,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+224,J8,false,TB_90024113,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.379,27.379,,,,,true,0.073,true,1,40,,,,,,1.097,0.983,N,N,N
+225,J9,false,ALHT Deer_55,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,31.264,31.264,,,,,true,0.165,true,1,40,,,,,,1.361,0.975,N,N,N
+226,J10,false,ALHT Deer_55,B. microti,UNKNOWN,FAM,NFQ-MGB,36.223,36.223,,,,,true,0.227,true,1,40,,,,,,1.300,0.970,N,N,N
+227,J11,false,ALHT Deer_55,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,37.475,37.475,,,,,true,0.040,true,1,40,,,,,,0.850,0.635,N,N,Y
+228,J12,false,ALHT Deer_55,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+229,J13,false,ALHT Deer_55,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+230,J14,false,ALHT Deer_55,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+231,J15,false,ALHT Deer_55,Powassan virus,UNKNOWN,FAM,NFQ-MGB,7.833,7.833,,,,,true,0.040,true,1,40,,,,,,0.523,0.000,N,N,Y
+232,J16,false,ALHT Deer_55,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.875,26.875,,,,,true,0.073,true,1,40,,,,,,1.201,0.983,N,N,N
+233,J17,false,ALHT Deer_35.2,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,31.650,31.650,,,,,true,0.165,true,1,40,,,,,,1.365,0.973,N,N,N
+234,J18,false,ALHT Deer_35.2,B. microti,UNKNOWN,FAM,NFQ-MGB,23.977,23.977,,,,,true,0.227,true,1,40,,,,,,1.428,0.989,N,N,N
+235,J19,false,ALHT Deer_35.2,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.546,0.000,N,Y,Y
+236,J20,false,ALHT Deer_35.2,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+237,J21,false,ALHT Deer_35.2,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+238,J22,false,ALHT Deer_35.2,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+239,J23,false,ALHT Deer_35.2,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.525,0.000,N,Y,Y
+240,J24,false,ALHT Deer_35.2,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.674,26.674,,,,,true,0.073,true,1,40,,,,,,1.285,0.987,N,N,N
+241,K1,false,ALHT Deer_93.1,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.165,true,1,40,,,,,,0.000,0.000,Y,Y,N
+242,K2,false,ALHT Deer_93.1,B. microti,UNKNOWN,FAM,NFQ-MGB,29.876,29.876,,,,,true,0.227,true,1,40,,,,,,1.433,0.993,N,N,N
+243,K3,false,ALHT Deer_93.1,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,30.242,30.242,,,,,true,0.040,true,1,40,,,,,,0.790,0.936,N,N,Y
+244,K4,false,ALHT Deer_93.1,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+245,K5,false,ALHT Deer_93.1,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+246,K6,false,ALHT Deer_93.1,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+247,K7,false,ALHT Deer_93.1,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,N,Y
+248,K8,false,ALHT Deer_93.1,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.331,27.331,,,,,true,0.073,true,1,40,,,,,,1.098,0.982,N,N,N
+249,K9,false,ALHT Deer_54,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,31.374,31.374,,,,,true,0.165,true,1,40,,,,,,1.354,0.974,N,N,N
+250,K10,false,ALHT Deer_54,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.227,true,1,40,,,,,,0.000,0.000,Y,Y,N
+251,K11,false,ALHT Deer_54,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,7.997,7.997,,,,,true,0.040,true,1,40,,,,,,0.557,0.007,N,N,Y
+252,K12,false,ALHT Deer_54,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,N,Y
+253,K13,false,ALHT Deer_54,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,N,Y,N
+254,K14,false,ALHT Deer_54,E. muris,UNKNOWN,FAM,NFQ-MGB,29.761,29.761,,,,,true,0.040,true,1,40,,,,,,0.000,0.490,Y,N,Y
+255,K15,false,ALHT Deer_54,Powassan virus,UNKNOWN,FAM,NFQ-MGB,8.360,8.360,,,,,true,0.040,true,1,40,,,,,,0.539,0.162,N,N,Y
+256,K16,false,ALHT Deer_54,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.867,26.867,,,,,true,0.073,true,1,40,,,,,,1.221,0.965,N,N,N
+257,K17,false,ALHT Deer_11.1,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,35.028,35.028,,,,,true,0.165,true,1,40,,,,,,1.291,0.939,N,N,N
+258,K18,false,ALHT Deer_11.1,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.227,true,1,40,,,,,,0.000,0.000,Y,Y,N
+259,K19,false,ALHT Deer_11.1,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,34.430,34.430,,,,,true,0.040,true,1,40,,,,,,1.254,0.824,N,N,Y
+260,K20,false,ALHT Deer_11.1,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+261,K21,false,ALHT Deer_11.1,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+262,K22,false,ALHT Deer_11.1,E. muris,UNKNOWN,FAM,NFQ-MGB,18.240,18.240,,,,,true,0.040,true,1,40,,,,,,0.333,0.324,N,N,Y
+263,K23,false,ALHT Deer_11.1,Powassan virus,UNKNOWN,FAM,NFQ-MGB,35.100,35.100,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,N,Y
+264,K24,false,ALHT Deer_11.1,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.633,26.633,,,,,true,0.073,true,1,40,,,,,,1.294,0.985,N,N,N
+265,L1,false,ALHT Deer_137,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.165,true,1,40,,,,,,0.000,0.000,N,Y,N
+266,L2,false,ALHT Deer_137,B. microti,UNKNOWN,FAM,NFQ-MGB,33.962,33.962,,,,,true,0.227,true,1,40,,,,,,1.399,0.987,N,N,N
+267,L3,false,ALHT Deer_137,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,34.502,34.502,,,,,true,0.040,true,1,40,,,,,,0.800,0.927,N,N,Y
+268,L4,false,ALHT Deer_137,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+269,L5,false,ALHT Deer_137,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+270,L6,false,ALHT Deer_137,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+271,L7,false,ALHT Deer_137,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+272,L8,false,ALHT Deer_137,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.364,27.364,,,,,true,0.073,true,1,40,,,,,,1.096,0.978,N,N,N
+273,L9,false,ALHT Deer_23,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,38.100,38.100,,,,,true,0.165,true,1,40,,,,,,1.026,0.736,N,N,N
+274,L10,false,ALHT Deer_23,B. microti,UNKNOWN,FAM,NFQ-MGB,22.815,22.815,,,,,true,0.227,true,1,40,,,,,,1.434,0.990,N,N,N
+275,L11,false,ALHT Deer_23,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,17.280,17.280,,,,,true,0.040,true,1,40,,,,,,0.389,0.257,N,N,Y
+276,L12,false,ALHT Deer_23,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,N,Y
+277,L13,false,ALHT Deer_23,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,N,Y,N
+278,L14,false,ALHT Deer_23,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,N,Y
+279,L15,false,ALHT Deer_23,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.451,0.000,N,N,Y
+280,L16,false,ALHT Deer_23,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.806,26.806,,,,,true,0.073,true,1,40,,,,,,1.229,0.987,N,N,N
+281,L17,false,Extraction BLank 3,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.165,true,1,40,,,,,,0.000,0.000,N,Y,N
+282,L18,false,Extraction BLank 3,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.227,true,1,40,,,,,,0.000,0.000,Y,Y,N
+283,L19,false,Extraction BLank 3,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,35.260,35.260,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,N,Y
+284,L20,false,Extraction BLank 3,B. mayonii,UNKNOWN,FAM,NFQ-MGB,19.610,19.610,,,,,true,0.040,true,1,40,,,,,,0.544,0.323,N,N,Y
+285,L21,false,Extraction BLank 3,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,N,Y,N
+286,L22,false,Extraction BLank 3,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+287,L23,false,Extraction BLank 3,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+288,L24,false,Extraction BLank 3,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.451,26.451,,,,,true,0.073,true,1,40,,,,,,1.280,0.991,N,N,N
+289,M1,false,ALHT Deer_102,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,23.690,23.690,,,,,true,0.165,true,1,40,,,,,,1.243,0.976,N,N,N
+290,M2,false,ALHT Deer_102,B. microti,UNKNOWN,FAM,NFQ-MGB,29.760,29.760,,,,,true,0.227,true,1,40,,,,,,1.435,0.992,N,N,N
+291,M3,false,ALHT Deer_102,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,34.805,34.805,,,,,true,0.040,true,1,40,,,,,,0.745,0.874,N,N,Y
+292,M4,false,ALHT Deer_102,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+293,M5,false,ALHT Deer_102,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+294,M6,false,ALHT Deer_102,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+295,M7,false,ALHT Deer_102,Powassan virus,UNKNOWN,FAM,NFQ-MGB,27.853,27.853,,,,,true,0.040,true,1,40,,,,,,0.274,0.008,N,N,Y
+296,M8,false,ALHT Deer_102,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.328,27.328,,,,,true,0.073,true,1,40,,,,,,1.094,0.981,N,N,N
+297,M9,false,ALHT Deer_57,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,23.523,23.523,,,,,true,0.165,true,1,40,,,,,,1.378,0.888,N,N,N
+298,M10,false,ALHT Deer_57,B. microti,UNKNOWN,FAM,NFQ-MGB,27.493,27.493,,,,,true,0.227,true,1,40,,,,,,1.424,0.988,N,N,N
+299,M11,false,ALHT Deer_57,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,27.031,27.031,,,,,true,0.040,true,1,40,,,,,,1.393,0.877,N,N,Y
+300,M12,false,ALHT Deer_57,B. mayonii,UNKNOWN,FAM,NFQ-MGB,33.008,33.008,,,,,true,0.040,true,1,40,,,,,,0.380,0.000,N,N,Y
+301,M13,false,ALHT Deer_57,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,N,N
+302,M14,false,ALHT Deer_57,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+303,M15,false,ALHT Deer_57,Powassan virus,UNKNOWN,FAM,NFQ-MGB,8.951,8.951,,,,,true,0.040,true,1,40,,,,,,0.533,0.000,N,N,Y
+304,M16,false,ALHT Deer_57,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.698,26.698,,,,,true,0.073,true,1,40,,,,,,1.239,0.970,N,N,N
+305,M17,false,ALHT Deer_11.2,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,34.362,34.362,,,,,true,0.165,true,1,40,,,,,,1.326,0.957,N,N,N
+306,M18,false,ALHT Deer_11.2,B. microti,UNKNOWN,FAM,NFQ-MGB,38.878,38.878,,,,,true,0.227,true,1,40,,,,,,1.085,0.146,N,N,N
+307,M19,false,ALHT Deer_11.2,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,16.353,16.353,,,,,true,0.040,true,1,40,,,,,,0.048,0.000,N,N,Y
+308,M20,false,ALHT Deer_11.2,B. mayonii,UNKNOWN,FAM,NFQ-MGB,8.432,8.432,,,,,true,0.040,true,1,40,,,,,,0.590,0.000,N,N,Y
+309,M21,false,ALHT Deer_11.2,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,N,Y,N
+310,M22,false,ALHT Deer_11.2,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+311,M23,false,ALHT Deer_11.2,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.359,0.000,N,N,Y
+312,M24,false,ALHT Deer_11.2,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.035,26.035,,,,,true,0.073,true,1,40,,,,,,1.291,0.989,N,N,N
+313,N1,false,ALHT Deer_92,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.165,true,1,40,,,,,,0.000,0.000,N,Y,N
+314,N2,false,ALHT Deer_92,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.227,true,1,40,,,,,,0.000,0.000,Y,Y,N
+315,N3,false,ALHT Deer_92,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+316,N4,false,ALHT Deer_92,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+317,N5,false,ALHT Deer_92,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+318,N6,false,ALHT Deer_92,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+319,N7,false,ALHT Deer_92,Powassan virus,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+320,N8,false,ALHT Deer_92,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.276,27.276,,,,,true,0.073,true,1,40,,,,,,1.084,0.981,N,N,N
+321,N9,false,ALHT Deer_68,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,31.675,31.675,,,,,true,0.165,true,1,40,,,,,,1.376,0.967,N,N,N
+322,N10,false,ALHT Deer_68,B. microti,UNKNOWN,FAM,NFQ-MGB,25.999,25.999,,,,,true,0.227,true,1,40,,,,,,1.440,0.993,N,N,N
+323,N11,false,ALHT Deer_68,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,32.909,32.909,,,,,true,0.040,true,1,40,,,,,,1.372,0.910,N,N,Y
+324,N12,false,ALHT Deer_68,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,N,Y
+325,N13,false,ALHT Deer_68,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+326,N14,false,ALHT Deer_68,E. muris,UNKNOWN,FAM,NFQ-MGB,12.138,12.138,,,,,true,0.040,true,1,40,,,,,,0.000,0.087,N,N,Y
+327,N15,false,ALHT Deer_68,Powassan virus,UNKNOWN,FAM,NFQ-MGB,34.571,34.571,,,,,true,0.040,true,1,40,,,,,,0.586,0.000,N,N,Y
+328,N16,false,ALHT Deer_68,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.661,26.661,,,,,true,0.073,true,1,40,,,,,,1.253,0.989,N,N,N
+329,N17,false,NTC,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.165,true,1,40,,,,,,0.000,0.000,N,Y,N
+330,N18,false,NTC,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.227,true,1,40,,,,,,0.000,0.000,Y,Y,N
+331,N19,false,NTC,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.489,0.000,N,Y,Y
+332,N20,false,NTC,B. mayonii,UNKNOWN,FAM,NFQ-MGB,34.206,34.206,,,,,true,0.040,true,1,40,,,,,,0.517,0.000,N,N,Y
+333,N21,false,NTC,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+334,N22,false,NTC,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+335,N23,false,NTC,Powassan virus,UNKNOWN,FAM,NFQ-MGB,23.443,23.443,,,,,true,0.040,true,1,40,,,,,,0.384,0.000,N,N,Y
+336,N24,false,NTC,Extraction Control,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.073,true,1,40,,,,,,0.000,0.000,Y,N,N
+337,O1,false,ALHT Deer_98,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,32.608,32.608,,,,,true,0.165,true,1,40,,,,,,1.295,0.969,N,N,N
+338,O2,false,ALHT Deer_98,B. microti,UNKNOWN,FAM,NFQ-MGB,32.917,32.917,,,,,true,0.227,true,1,40,,,,,,1.445,0.990,N,N,N
+339,O3,false,ALHT Deer_98,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,39.081,39.081,,,,,true,0.040,true,1,40,,,,,,0.660,0.000,N,N,Y
+340,O4,false,ALHT Deer_98,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+341,O5,false,ALHT Deer_98,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+342,O6,false,ALHT Deer_98,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+343,O7,false,ALHT Deer_98,Powassan virus,UNKNOWN,FAM,NFQ-MGB,34.610,34.610,,,,,true,0.040,true,1,40,,,,,,0.617,0.270,N,N,Y
+344,O8,false,ALHT Deer_98,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.295,27.295,,,,,true,0.073,true,1,40,,,,,,1.101,0.980,N,N,N
+345,O9,false,ALHT Deer_67,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,27.055,27.055,,,,,true,0.165,true,1,40,,,,,,1.387,0.979,N,N,N
+346,O10,false,ALHT Deer_67,B. microti,UNKNOWN,FAM,NFQ-MGB,25.800,25.800,,,,,true,0.227,true,1,40,,,,,,1.441,0.993,N,N,N
+347,O11,false,ALHT Deer_67,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,29.963,29.963,,,,,true,0.040,true,1,40,,,,,,1.421,0.851,N,N,Y
+348,O12,false,ALHT Deer_67,B. mayonii,UNKNOWN,FAM,NFQ-MGB,24.346,24.346,,,,,true,0.040,true,1,40,,,,,,0.462,0.448,N,N,Y
+349,O13,false,ALHT Deer_67,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,25.991,25.991,,,,,true,0.175,true,1,40,,,,,,1.386,0.989,N,N,N
+350,O14,false,ALHT Deer_67,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+351,O15,false,ALHT Deer_67,Powassan virus,UNKNOWN,FAM,NFQ-MGB,21.633,21.633,,,,,true,0.040,true,1,40,,,,,,0.563,0.000,N,N,Y
+352,O16,false,ALHT Deer_67,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.721,26.721,,,,,true,0.073,true,1,40,,,,,,1.257,0.987,N,N,N
+353,O17,false,ALHT Deer_21,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,31.400,31.400,,,,,true,0.165,true,1,40,,,,,,1.361,0.958,N,N,N
+354,O18,false,ALHT Deer_21,B. microti,UNKNOWN,FAM,NFQ-MGB,37.170,37.170,,,,,true,0.227,true,1,40,,,,,,1.220,0.961,N,N,N
+355,O19,false,ALHT Deer_21,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,36.654,36.654,,,,,true,0.040,true,1,40,,,,,,1.034,0.736,N,N,Y
+356,O20,false,ALHT Deer_21,B. mayonii,UNKNOWN,FAM,NFQ-MGB,18.908,18.908,,,,,true,0.040,true,1,40,,,,,,0.455,0.439,N,N,Y
+357,O21,false,ALHT Deer_21,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+358,O22,false,ALHT Deer_21,E. muris,UNKNOWN,FAM,NFQ-MGB,12.344,12.344,,,,,true,0.040,true,1,40,,,,,,0.000,0.319,Y,N,Y
+359,O23,false,ALHT Deer_21,Powassan virus,UNKNOWN,FAM,NFQ-MGB,7.885,7.885,,,,,true,0.040,true,1,40,,,,,,0.469,0.000,N,N,Y
+360,O24,false,ALHT Deer_21,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.502,26.502,,,,,true,0.073,true,1,40,,,,,,1.288,0.988,N,N,N
+361,P1,false,24-3775,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.165,true,1,40,,,,,,0.000,0.000,N,Y,N
+362,P2,false,24-3775,B. microti,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.227,true,1,40,,,,,,0.000,0.000,Y,N,N
+363,P3,false,24-3775,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+364,P4,false,24-3775,B. mayonii,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+365,P5,false,24-3775,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.175,true,1,40,,,,,,0.000,0.000,Y,Y,N
+366,P6,false,24-3775,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,Y,Y,Y
+367,P7,false,24-3775,Powassan virus,UNKNOWN,FAM,NFQ-MGB,8.459,8.459,,,,,true,0.040,true,1,40,,,,,,0.589,0.061,N,N,Y
+368,P8,false,24-3775,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.484,27.484,,,,,true,0.073,true,1,40,,,,,,1.092,0.977,N,N,N
+369,P9,false,ALHT Deer_81,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,24.435,24.435,,,,,true,0.165,true,1,40,,,,,,1.362,0.907,N,N,N
+370,P10,false,ALHT Deer_81,B. microti,UNKNOWN,FAM,NFQ-MGB,25.471,25.471,,,,,true,0.227,true,1,40,,,,,,1.448,0.992,N,N,N
+371,P11,false,ALHT Deer_81,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,28.453,28.453,,,,,true,0.040,true,1,40,,,,,,1.438,0.652,N,N,Y
+372,P12,false,ALHT Deer_81,B. mayonii,UNKNOWN,FAM,NFQ-MGB,25.603,25.603,,,,,true,0.040,true,1,40,,,,,,0.022,0.060,N,N,Y
+373,P13,false,ALHT Deer_81,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,25.992,25.992,,,,,true,0.175,true,1,40,,,,,,1.405,0.992,N,N,N
+374,P14,false,ALHT Deer_81,E. muris,UNKNOWN,FAM,NFQ-MGB,Undetermined,,,,,,true,0.040,true,1,40,,,,,,0.000,0.000,N,Y,Y
+375,P15,false,ALHT Deer_81,Powassan virus,UNKNOWN,FAM,NFQ-MGB,7.663,7.663,,,,,true,0.040,true,1,40,,,,,,0.576,0.013,N,N,Y
+376,P16,false,ALHT Deer_81,Extraction Control,UNKNOWN,FAM,NFQ-MGB,26.746,26.746,,,,,true,0.073,true,1,40,,,,,,1.266,0.988,N,N,N
+377,P17,false,POS,A. phagocytophilum,UNKNOWN,FAM,NFQ-MGB,28.710,28.710,,,,,true,0.165,true,1,40,,,,,,1.251,0.978,N,N,N
+378,P18,false,POS,B. microti,UNKNOWN,FAM,NFQ-MGB,28.679,28.679,,,,,true,0.227,true,1,40,,,,,,1.424,0.991,N,N,N
+379,P19,false,POS,B. burgdorferi,UNKNOWN,FAM,NFQ-MGB,29.264,29.264,,,,,true,0.040,true,1,40,,,,,,1.095,0.961,N,N,Y
+380,P20,false,POS,B. mayonii,UNKNOWN,FAM,NFQ-MGB,26.579,26.579,,,,,true,0.040,true,1,40,,,,,,1.257,0.981,N,N,Y
+381,P21,false,POS,B. miyamotoi,UNKNOWN,FAM,NFQ-MGB,30.124,30.124,,,,,true,0.175,true,1,40,,,,,,1.313,0.984,N,N,N
+382,P22,false,POS,E. muris,UNKNOWN,FAM,NFQ-MGB,24.694,24.694,,,,,true,0.040,true,1,40,,,,,,1.434,0.993,N,N,Y
+383,P23,false,POS,Powassan virus,UNKNOWN,FAM,NFQ-MGB,24.597,24.597,,,,,true,0.040,true,1,40,,,,,,1.349,0.788,N,N,Y
+384,P24,false,POS,Extraction Control,UNKNOWN,FAM,NFQ-MGB,27.879,27.879,,,,,true,0.073,true,1,40,,,,,,1.176,0.988,N,N,N

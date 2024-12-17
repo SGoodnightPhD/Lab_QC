@@ -8,11 +8,11 @@ library(readxl)
 
 # Get the data into R----
 # setwd("C:/Users/sethg/OneDrive/Documents/CoCo Lab/Lab_QC")
-setwd("C:/Users/swd22/OneDrive - USNH/Documents/GitHub/Lab_QC")
-
+# setwd("C:/Users/swd22/OneDrive - USNH/Documents/GitHub/Lab_QC")
+setwd("C:/Users/Seth/Documents/GitHub/Lab_QC")
 # Enter the name of the result file. 
 # csv_file <- "USGS-Ticks-qPCR01.xlsx"
-csv_file <- "USGS-Ticks-qPCR01-altered.csv"
+csv_file <- "USGS-Ticks-qPCR03.csv"
 
 # Use something like this to import from an excel file
 #RawResults.dat <- as.data.frame(read_excel(csv_file, sheet = "Results", col_names = FALSE))
@@ -33,14 +33,14 @@ dir.create(csv_base_name, showWarnings = FALSE)
 
 # Generate QC report for the plate----
 report_name <- csv_base_name
-# Render the R Markdown file for each sample
+# Render the R Markdown file
 rmarkdown::render("Tick Panel Plate QC.Rmd", 
                   params = list(report_name = report_name), 
                   output_file = paste0(csv_base_name, "/_", report_name, ".pdf"))
 
 no_positive_samples <- PCR_Results.dat %>%
   group_by(sample_name) %>%
-  dplyr::summarise(All_False = all(pass_check == FALSE))
+  dplyr::summarise(All_False = all(pass_check == FALSE)) %>%
   filter(All_False) %>%
   pull(sample_name)
 
@@ -48,7 +48,6 @@ no_positive_samples <- PCR_Results.dat %>%
 Samples <- setdiff(Samples, no_positive_samples)
 
 # Loop through each sample name and generate a report----
-# Works correctly, but it needs to incorporate Amp score and Cq conf evaluation as well as different Ct values for each target.
 for (sample in Samples) {
   # Define the name of the output dynamically for each sample
   report_name <- sample
